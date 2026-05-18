@@ -1,0 +1,53 @@
+{
+  "title": "Geolocations & Plantations",
+  "subtitle": "Track and verify commodity origin locations",
+  "addGeolocation": "Add New Geolocation",
+  "fields": {
+    "name": "Location Name",
+    "country": "Country",
+    "region": "Region",
+    "plotNumber": "Plot Number",
+    "coordinates": "Coordinates",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "area": "Area",
+    "areaUnit": "Area Unit",
+    "landUseType": "Land Use Type",
+    "ownerName": "Owner/Manager",
+    "forestRiskLevel": "Forest Risk Level",
+    "verificationStatus": "Verification Status",
+    "lastVerified": "Last Verified",
+    "supplier": "Supplier",
+    "status": "Status",
+    "documents": "Documents"
+  },
+  "landUseTypes": {
+    "agricultural": "Agricultural",
+    "forestry": "Forestry",
+    "pasture": "Pasture",
+    "mixed": "Mixed Use"
+  },
+  "verificationStatus": {
+    "verified": "Verified",
+    "pending": "Pending",
+    "failed": "Failed"
+  },
+  "riskLevels": {
+    "low": "Low Risk",
+    "medium": "Medium Risk",
+    "high": "High Risk"
+  },
+  "sections": {
+    "coordinates": "Coordinates",
+    "verification": "Verification",
+    "riskWarning": "Risk Warning",
+    "documents": "Documents"
+  },
+  "messages": {
+    "geolocationAdded": "Geolocation added successfully",
+    "geolocationUpdated": "Geolocation updated successfully",
+    "coordinatesRequired": "Coordinates are required with 6 decimal precision",
+    "highRiskArea": "This area has been flagged as high risk for deforestation. Please review the location carefully.",
+    "noDocuments": "No documents available"
+  }
+}

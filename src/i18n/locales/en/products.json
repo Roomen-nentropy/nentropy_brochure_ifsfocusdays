@@ -1,0 +1,125 @@
+{
+  "title": "Products",
+  "subtitle": "Track and manage EUDR-relevant products",
+  "addProduct": "Add New Product",
+  "editProduct": "Edit Product",
+  "fields": {
+    "name": "Product Name",
+    "category": "Category",
+    "supplier": "Supplier",
+    "country": "Origin Country",
+    "region": "Origin Region",
+    "hsCode": "HS Code",
+    "internalProductCode": "Internal Product Code",
+    "supplierProductCode": "Supplier Product Code",
+    "unit": "Unit",
+    "isEudrRelevant": "EUDR Relevant",
+    "description": "Description",
+    "productInfo": "Product Information",
+    "riskLevel": "Risk Level"
+  },
+  "categories": {
+    "cattle": "Cattle",
+    "cocoa": "Cocoa",
+    "coffee": "Coffee",
+    "palmOil": "Palm Oil",
+    "rubber": "Rubber",
+    "soy": "Soy",
+    "wood": "Wood Products"
+  },
+  "alerts": {
+    "eudrWarning": "This product falls under EUDR regulation and requires enhanced due diligence documentation.",
+    "eudrCategories": "EUDR Relevant Categories",
+    "eudrRelevantWarning": "This product falls under EUDR regulation and requires enhanced due diligence documentation."
+  },
+  "validation": {
+    "nameRequired": "Product name is required",
+    "categoryRequired": "Category is required",
+    "supplierRequired": "Supplier is required"
+  },
+  "placeholders": {
+    "internalProductCode": "e.g., PROD-001",
+    "supplierProductCode": "e.g., SUP-XYZ-123"
+  },
+  "messages": {
+    "productAdded": "Product added successfully",
+    "productUpdated": "Product updated successfully",
+    "productDeleted": "Product deleted successfully",
+    "productDeletedSuccess": "Product \"{{name}}\" deleted successfully",
+    "productCreatedSuccess": "Product created successfully",
+    "productUpdatedSuccess": "Product updated successfully",
+    "errorLoadingProducts": "Failed to load products. Please try again.",
+    "errorDeletingProduct": "Failed to delete product. Please try again.",
+    "errorSavingProduct": "Failed to save product. Please try again.",
+    "noProductsInstructions": "Import products via CSV in the Suppliers tab or add them manually using the + button.",
+    "noProductsFound": "No products found",
+    "noProductsInstructionsDetailed": "Import products via CSV in the Suppliers tab or add them manually",
+    "addSuppliersFirst": "Add suppliers first to create products",
+    "importing": "Importing...",
+    "importSuccess": "Successfully imported {{suppliers}} suppliers and {{products}} products",
+    "importSuccessWithWarnings": "Imported {{suppliers}} suppliers and {{products}} products with {{warnings}} warnings",
+    "errorImporting": "Failed to import data. Please try again.",
+    "saving": "Saving...",
+    "deleting": "Deleting..."
+  },
+  "labels": {
+    "confirmDeletion": "Confirm Deletion",
+    "deleteConfirmation": "Are you sure you want to delete product \"{{name}}\"?",
+    "eu": "EU",
+    "nonEU": "Non-EU",
+    "eudrRelevant": "EUDR Relevant",
+    "created": "Created",
+    "lastUpdated": "Last Updated",
+    "riskLevel": "Risk Level",
+    "unknown": "Unknown",
+    "addProduct": "Add Product",
+    "productDossier": "Product dossier"
+  },
+  "filterByCategory": "Filter by Category",
+  "views": {
+    "grid": "Grid View",
+    "batches": "Batches View"
+  },
+  "batches": {
+    "title": "Batch Management",
+    "manageBatches": "Manage Batches",
+    "createBatch": "Create Batch",
+    "createFirstBatch": "Create First Batch",
+    "editBatch": "Edit Batch",
+    "deleteBatch": "Delete Batch",
+    "deleteConfirm": "Are you sure you want to delete batch \"{{batchNumber}}\"?",
+    "noBatches": "No batches found for this product",
+    "totalBatches": "{{count}} batches",
+    "ddsNumberHelp": "Due Diligence Statement number from EU registry",
+    "tabs": {
+      "list": "Batches",
+      "create": "Create New",
+      "edit": "Edit Batch"
+    },
+    "fields": {
+      "batchNumber": "Batch Number",
+      "quantity": "Quantity",
+      "unit": "Unit",
+      "receivedDate": "Received Date",
+      "expiryDate": "Expiry Date",
+      "ddsNumber": "DDS Number",
+      "ddsStatus": "DDS Status",
+      "ddsExpiryDate": "DDS Expiry Date",
+      "notes": "Notes"
+    },
+    "ddsStatus": {
+      "ACTIVE": "Active",
+      "EXPIRED": "Expired",
+      "EXPIRING_SOON": "Expiring Soon",
+      "GEOLOCATION_MISMATCH": "Geolocation Mismatch",
+      "PENDING_RENEWAL": "Pending Renewal"
+    }
+  },
+  "units": {
+    "kg": "Kilograms",
+    "tons": "Tons",
+    "liters": "Liters",
+    "m3": "Cubic Meters",
+    "pieces": "Pieces"
+  }
+}

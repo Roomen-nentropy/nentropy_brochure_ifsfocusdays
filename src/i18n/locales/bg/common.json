@@ -1,0 +1,128 @@
+{
+  "actions": {
+    "add": "Добави",
+    "edit": "Редактирай",
+    "delete": "Изтрий",
+    "save": "Запази",
+    "cancel": "Отказ",
+    "close": "Затвори",
+    "submit": "Изпрати",
+    "create": "Създай",
+    "update": "Актуализирай",
+    "import": "Импортирай",
+    "export": "Експортирай",
+    "download": "Изтегли",
+    "upload": "Качи",
+    "search": "Търси",
+    "filter": "Филтрирай",
+    "clear": "Изчисти",
+    "reset": "Нулирай",
+    "confirm": "Потвърди",
+    "back": "Назад",
+    "next": "Следващ",
+    "previous": "Предишен",
+    "finish": "Завърши",
+    "saveChanges": "Запази промените",
+    "getStarted": "Започни",
+    "viewDashboard": "Към дашборда",
+    "manageSuppliers": "Към управление на доставчици",
+    "demo": "Демо",
+    "confirmDelete": "Потвърди изтриване",
+    "deleteConfirmation": "Сигурни ли сте, че искате да изтриете {{item}}?",
+    "actions": ""
+  },
+  "status": {
+    "active": "Активен",
+    "inactive": "Неактивен",
+    "pending": "Очакващ",
+    "completed": "Завършен",
+    "draft": "Чернова",
+    "approved": "Одобрен",
+    "rejected": "Отхвърлен",
+    "inProgress": "В процес",
+    "verified": "Потвърден",
+    "unverified": "Непотвърден"
+  },
+  "riskLevel": {
+    "low": "Нисък",
+    "medium": "Среден",
+    "high": "Висок",
+    "unknown": "Неизвестен"
+  },
+  "fields": {
+    "name": "Име",
+    "origin": "Произход",
+    "description": "Описание",
+    "country": "Държава",
+    "city": "Град",
+    "postalCode": "Пощенски код",
+    "region": "Регион",
+    "address": "Адрес",
+    "email": "Имейл",
+    "phone": "Телефон",
+    "status": "Статус",
+    "created": "Създаден",
+    "updated": "Актуализиран",
+    "lastUpdated": "Последна актуализация",
+    "category": "Категория",
+    "type": "Тип",
+    "quantity": "Количество",
+    "weight": "Тегло",
+    "unit": "Единица",
+    "date": "Дата",
+    "time": "Време",
+    "coordinates": "Координати",
+    "latitude": "Ширина",
+    "longitude": "Дължина",
+    "area": "Площ"
+  },
+  "validation": {
+    "required": "Това поле е задължително",
+    "invalidEmail": "Невалиден имейл адрес",
+    "invalidPhone": "Невалиден телефонен номер",
+    "tooShort": "Твърде кратко",
+    "tooLong": "Твърде дълго",
+    "invalidFormat": "Невалиден формат"
+  },
+  "messages": {
+    "loading": "Зареждане...",
+    "noData": "Няма налични данни",
+    "error": "Възникна грешка",
+    "success": "Успех",
+    "saved": "Запазено успешно",
+    "deleted": "Изтрито успешно",
+    "updated": "Актуализирано успешно",
+    "created": "Създадено успешно",
+    "warning": "Предупреждение"
+  },
+  "eudr": {
+    "compliance": "EUDR Съответствие",
+    "relevant": "Попадащи под EUDR",
+    "regulation": "Регламент за обезлесяването на ЕС",
+    "commodities": {
+      "cattle": "Добитък",
+      "cocoa": "Какао",
+      "coffee": "Кафе",
+      "palmOil": "Палмово масло",
+      "rubber": "Каучук",
+      "soy": "Соя",
+      "woodProducts": "Дървени продукти"
+    }
+  },
+  "units": {
+    "kg": "кг",
+    "tons": "тона",
+    "hectares": "хектара",
+    "pieces": "броя",
+    "liters": "литра",
+    "cubic_meters": "кубични метра"
+  },
+  "yesNo": {
+    "yes": "Да",
+    "no": "Не"
+  },
+  "none": "Няма",
+  "search": {
+    "placeholder": "Търсене..."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Select Your Business Type",
+  "subtitle": "This determines which features and workflows are available to you",
+  "selected": "Selected",
+  "featuresLabel": "Features:",
+  "keyDetailsLabel": "Key Details:",
+  "businessTypes": {
+    "TRADER": {
+      "title": "Trader",
+      "description": "I only trade goods without modifying them",
+      "features": {
+        "recordDDS": "Record DDS Numbers",
+        "trackSuppliers": "Track Suppliers & Products",
+        "riskAssessments": "Risk Assessments",
+        "createDDS": "Create DDS Statements",
+        "manufacture": "Manufacture Products"
+      },
+      "details": {
+        "retention": "5-year data retention",
+        "workflow": "Simplified compliance workflow",
+        "collectDDS": "Collect DDS from suppliers",
+        "noGeolocation": "No geolocation data required"
+      }
+    },
+    "OPERATOR_IMPORTER": {
+      "title": "Operator (Importer)",
+      "description": "I import EUDR-relevant commodities from non-EU countries",
+      "features": {
+        "createDDS": "Create DDS Statements",
+        "riskAssessments": "Risk Assessments",
+        "trackSupplyChains": "Track Supply Chains",
+        "sendSurveys": "Send Compliance Surveys",
+        "geolocation": "Geolocation Tracking"
+      },
+      "details": {
+        "retention": "5-year data retention",
+        "dueDiligence": "Full due diligence required",
+        "geolocationMandatory": "Geolocation data mandatory",
+        "riskAssessment": "Risk assessment per supplier"
+      }
+    },
+    "OPERATOR_MANUFACTURER": {
+      "title": "Operator (Manufacturer)",
+      "description": "I manufacture products using imported EUDR-relevant ingredients",
+      "features": {
+        "createDDS": "Create DDS Statements",
+        "riskAssessments": "Risk Assessments",
+        "ownGoods": "Own Goods Module",
+        "ingredientTracking": "Ingredient Tracking",
+        "batchManagement": "Batch Management"
+      },
+      "details": {
+        "retention": "5-year data retention",
+        "trackIngredients": "Track ingredient sources",
+        "bomTracking": "Bill of Materials tracking",
+        "traceability": "Full traceability required"
+      }
+    },
+    "OPERATOR_DOMESTIC": {
+      "title": "Operator (Domestic/EU)",
+      "description": "I only source from EU or domestic suppliers",
+      "features": {
+        "createDDS": "Create DDS Statements",
+        "euSurveys": "EU Declaration Surveys",
+        "riskAssessments": "Risk Assessments",
+        "ownGoods": "Own Goods Module",
+        "simplifiedCompliance": "Simplified Compliance"
+      },
+      "details": {
+        "retention": "5-year data retention",
+        "euSurveys": "EU declaration surveys",
+        "lowerRisk": "Lower risk assessments",
+        "noGeolocation": "No geolocation required"
+      }
+    }
+  }
+}

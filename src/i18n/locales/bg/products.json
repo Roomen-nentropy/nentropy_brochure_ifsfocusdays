@@ -1,0 +1,124 @@
+{
+  "title": "Продукти",
+  "subtitle": "Проследяване и управление на EUDR-релевантни продукти",
+  "addProduct": "Добавяне на нов продукт",
+  "editProduct": "Редактиране на продукт",
+  "fields": {
+    "name": "Име на продукта",
+    "category": "Категория",
+    "supplier": "Доставчик",
+    "country": "Държава на произход",
+    "region": "Регион на произход",
+    "hsCode": "HS код",
+    "internalProductCode": "Вътрешен код",
+    "supplierProductCode": "Код на доставчик",
+    "unit": "Единица",
+    "isEudrRelevant": "EUDR релевантен",
+    "description": "Описание",
+    "productInfo": "Информация за продукта",
+    "riskLevel": "Ниво на риск"
+  },
+  "categories": {
+    "cattle": "Говеда",
+    "cocoa": "Какао",
+    "coffee": "Кафе",
+    "palmOil": "Палмово масло",
+    "rubber": "Каучук",
+    "soy": "Соя",
+    "wood": "Дървесни продукти"
+  },
+  "alerts": {
+    "eudrWarning": "Този продукт попада под регулацията EUDR.",
+    "eudrCategories": "EUDR релевантни категории",
+    "eudrRelevantWarning": "Този продукт попада под регулацията EUDR."
+  },
+  "validation": {
+    "nameRequired": "Името на продукта е задължително",
+    "categoryRequired": "Категорията е задължителна",
+    "supplierRequired": "Доставчикът е задължителен"
+  },
+  "placeholders": {
+    "internalProductCode": "напр., ПРОД-001",
+    "supplierProductCode": "напр., ДОС-XYZ-123"
+  },
+  "messages": {
+    "productAdded": "Продуктът е добавен успешно",
+    "productUpdated": "Продуктът е актуализиран успешно",
+    "productDeleted": "Продуктът е изтрит успешно",
+    "productDeletedSuccess": "Продукт \"{{name}}\" е изтрит успешно",
+    "productCreatedSuccess": "Продуктът е създаден успешно",
+    "productUpdatedSuccess": "Продуктът е актуализиран успешно",
+    "errorLoadingProducts": "Неуспешно зареждане на продукти. Моля, опитайте отново.",
+    "errorDeletingProduct": "Неуспешно изтриване на продукт. Моля, опитайте отново.",
+    "errorSavingProduct": "Неуспешно запазване на продукт. Моля, опитайте отново.",
+    "noProductsInstructions": "Импортирайте продукти чрез CSV в раздела Доставчици или ги добавете ръчно с бутона +.",
+    "noProductsFound": "Няма намерени продукти",
+    "noProductsInstructionsDetailed": "Импортирайте продукти чрез CSV в раздела Доставчици или ги добавете ръчно",
+    "addSuppliersFirst": "Първо добавете доставчици, за да създадете продукти",
+    "importing": "Импортиране...",
+    "importSuccess": "Успешно импортирани {{suppliers}} доставчици и {{products}} продукти",
+    "importSuccessWithWarnings": "Импортирани {{suppliers}} доставчици и {{products}} продукти с {{warnings}} предупреждения",
+    "errorImporting": "Неуспешно импортиране на данни. Моля, опитайте отново.",
+    "saving": "Запазване...",
+    "deleting": "Изтриване..."
+  },
+  "labels": {
+    "confirmDeletion": "Потвърждаване на изтриването",
+    "deleteConfirmation": "Сигурни ли сте, че искате да изтриете продукт \"{{name}}\"?",
+    "eu": "ЕС",
+    "nonEU": "Извън ЕС",
+    "eudrRelevant": "EUDR релевантен",
+    "created": "Създаден",
+    "lastUpdated": "Последно актуализиран",
+    "riskLevel": "Ниво на риск",
+    "unknown": "Неизвестно",
+    "addProduct": "Добавяне на продукт"
+  },
+  "filterByCategory": "Филтриране по категория",
+  "views": {
+    "grid": "Таблично",
+    "batches": "По партиди"
+  },
+  "batches": {
+    "title": "Управление на партиди",
+    "manageBatches": "Управление на партиди",
+    "createBatch": "Създаване на партида",
+    "createFirstBatch": "Създаване на първа партида",
+    "editBatch": "Редактиране на партида",
+    "deleteBatch": "Изтриване на партида",
+    "deleteConfirm": "Сигурни ли сте, че искате да изтриете партида \"{{batchNumber}}\"?",
+    "noBatches": "Няма намерени партиди за този продукт",
+    "totalBatches": "{{count}} партиди",
+    "ddsNumberHelp": "Номер на декларация за дължима грижа от регистъра на ЕС",
+    "tabs": {
+      "list": "Партиди",
+      "create": "Създаване на нова",
+      "edit": "Редактиране на партида"
+    },
+    "fields": {
+      "batchNumber": "Номер на партида",
+      "quantity": "Количество",
+      "unit": "Единица",
+      "receivedDate": "Дата на получаване",
+      "expiryDate": "Срок на годност",
+      "ddsNumber": "DDS номер",
+      "ddsStatus": "DDS статус",
+      "ddsExpiryDate": "Дата на изтичане на DDS",
+      "notes": "Бележки"
+    },
+    "ddsStatus": {
+      "ACTIVE": "Активен",
+      "EXPIRED": "Изтекъл",
+      "EXPIRING_SOON": "Изтича скоро",
+      "GEOLOCATION_MISMATCH": "Несъответствие в геолокацията",
+      "PENDING_RENEWAL": "Чака подновяване"
+    }
+  },
+  "units": {
+    "kg": "Килограми",
+    "tons": "Тонове",
+    "liters": "Литри",
+    "m3": "Кубични метри",
+    "pieces": "Броя"
+  }
+}

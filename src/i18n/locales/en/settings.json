@@ -1,0 +1,108 @@
+{
+  "title": "Company Settings",
+  "subtitle": "Configure application preferences",
+  "general": "General",
+  "language": "Language",
+  "notifications": "Notifications",
+  "compliance": "Compliance Settings",
+  "dataManagement": "Data Management",
+  "selectLanguage": "Select Language",
+  "languages": {
+    "en": "English",
+    "bg": "Bulgarian",
+    "it": "Italian"
+  },
+  "sections": {
+    "companyInfo": "Company Information",
+    "contactInfo": "Contact Information",
+    "legalContact": "Legal Contact",
+    "certifications": "Certifications",
+    "operatingCountries": "Operating Countries"
+  },
+  "fields": {
+    "companyName": "Company Name",
+    "registrationNumber": "Registration Number",
+    "vatNumber": "VAT Number",
+    "businessType": "Business Type",
+    "defaultRiskLevel": "Default Risk Level",
+    "streetAddress": "Street Address",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "country": "Country",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "fullName": "Full Name",
+    "position": "Position",
+    "searchAddress": "Search address…"
+  },
+  "businessTypes": {
+    "importer": "Importer",
+    "exporter": "Exporter",
+    "processor": "Processor",
+    "trader": "Trader",
+    "manufacturer": "Manufacturer",
+    "other": "Other"
+  },
+  "actions": {
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "addCertification": "Add Certification",
+    "addCountry": "Add Country"
+  },
+  "messages": {
+    "unsavedChanges": "You have unsaved changes. Click \"Save Changes\" to apply them.",
+    "settingsSaved": "Settings saved successfully",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes",
+    "loadingError": "Failed to load settings"
+  },
+  "cards": {
+    "companyInfo": {
+      "title": "Company Information",
+      "subtitle": "Basic company details and registration"
+    },
+    "addressInfo": {
+      "title": "Address Information",
+      "subtitle": "Company address and location details"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "subtitle": "Company contact details"
+    },
+    "legalRepresentative": {
+      "title": "Legal Representative",
+      "subtitle": "Legal representative contact information"
+    },
+    "subscription": {
+      "title": "Subscription & Billing",
+      "subtitle": "Manage your subscription plan and billing settings",
+      "currentPlan": "Current Plan",
+      "status": "Status",
+      "renews": "Renews",
+      "ends": "Ends",
+      "manageBilling": "Manage Subscription",
+      "trialMessage": "You are currently on a free trial. Subscribe to a plan to continue using Nentropy after your trial ends.",
+      "noSubscriptionMessage": "You don't have an active subscription. Choose a plan below to get started.",
+      "subscriptionStatus": {
+        "active": "Active",
+        "trialing": "Trial",
+        "past_due": "Past Due",
+        "canceled": "Canceled",
+        "expired": "Expired"
+      }
+    },
+    "businessType": {
+      "title": "Business Type & Workflow",
+      "subtitle": "Select your business type to configure your EUDR compliance workflow"
+    },
+    "additionalInfo": {
+      "title": "Additional Information",
+      "subtitle": "Certifications and operating regions"
+    }
+  },
+  "placeholders": {
+    "addCertification": "Add certification and press Enter",
+    "addCountry": "Add country and press Enter"
+  }
+}

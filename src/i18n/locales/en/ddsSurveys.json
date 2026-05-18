@@ -1,0 +1,41 @@
+{
+  "title": "DDS Required info collection",
+  "subtitle": "DDS Required info collection",
+  "createNewBatch": "Create New Batch",
+  "micro": {
+    "title": "Micro DDS Surveys",
+    "subtitle": "Collect DDS numbers from suppliers (for traders)",
+    "create": "Create Micro DDS Survey",
+    "verify": "Verify DDS",
+    "noSurveys": "No Micro DDS surveys found",
+    "fields": {
+      "supplier": "Supplier",
+      "product": "Product",
+      "batch": "Batch",
+      "ddsNumber": "DDS Number",
+      "ddsExpiryDate": "DDS Expiry Date",
+      "verifiedAt": "Verified At",
+      "verificationNotes": "Verification Notes",
+      "created": "Created on"
+    }
+  },
+  "mini": {
+    "title": "Mini DDS Surveys",
+    "subtitle": "Collect harvest and geolocation data (for operators)",
+    "create": "Create Mini DDS Survey",
+    "noSurveys": "No Mini DDS surveys found",
+    "fields": {
+      "supplier": "Supplier",
+      "product": "Product",
+      "batch": "Batch",
+      "harvestDate": "Harvest Date",
+      "geolocations": "Geolocations",
+      "totalArea": "Total Area (ha)",
+      "farmerId": "Farmer ID",
+      "farmerName": "Farmer Name",
+      "certifications": "Certifications",
+      "notes": "Notes",
+      "created": "Created on"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "form": {
+    "groups": {
+      "euCompliance": "Съответствие с ЕС",
+      "declaration": "Декларация",
+      "companyInformation": "Информация за компанията",
+      "plantationLandDetails": "Данни за плантацията и земята",
+      "riskAssessment": "Оценка на риска",
+      "riskMitigation": "Смекчаване на риска",
+      "productInformation": "Информация за продукта",
+      "certifications": "Сертификати",
+      "chainOfCustody": "Верига на попечителство",
+      "riskCompliance": "Риск и съответствие",
+      "companyDetails": "Данни за компанията",
+      "productsSupplied": "Доставени продукти",
+      "certification": "Сертификация"
+    },
+    "fields": {
+      "yes": "Да",
+      "no": "Не"
+    },
+    "buttons": {
+      "back": "Назад",
+      "next": "Напред",
+      "submitSurvey": "Изпрати анкета",
+      "saveProgress": "Запази прогреса",
+      "cancel": "Отмени",
+      "submit": "Изпрати"
+    },
+    "status": {
+      "progress": "Прогрес:",
+      "saving": "Записване...",
+      "lastSaved": "Последно записано: {{time}}",
+      "submitting": "Изпращане...",
+      "completion": "Завършеност: {{percentage}}%"
+    },
+    "messages": {
+      "invalidLink": "Невалидна връзка към анкета",
+      "failedToLoad": "Неуспешно зареждане на анкета",
+      "surveyNotFound": "Анкетата не е намерена",
+      "surveyQuestionsMissing": "Анкетата няма заредени въпроси. Операторът трябва да отвори „Проучвания“ веднъж (за обновяване на шаблоните), след което да създаде нов линк.",
+      "surveyExpired": "Тази анкета е изтекла. Моля, свържете се с администратора на доставчика за нова връзка.",
+      "failedToSubmit": "Неуспешно изпращане на анкета",
+      "surveyCompleted": "Анкетата е завършена",
+      "noMoreChanges": "Не са разрешени повече промени в тази анкета",
+      "completedOn": "Завършена на: {{date}}"
+    },
+    "dialog": {
+      "submitTitle": "Изпрати анкета",
+      "submitConfirmation": "Сигурни ли сте, че искате да изпратите тази анкета? След изпращане няма да можете да правите промени.",
+      "unsavedChangesTitle": "Незапазени промени",
+      "unsavedChangesMessage": "Имате незапазени промени. Искате ли да запазите прогреса си преди да напуснете тази страница?",
+      "stayOnPage": "Остани на страницата",
+      "saveAndLeave": "Запази и напусни"
+    }
+  },
+  "monitoring": {
+    "title": "Наблюдение на анкети",
+    "buttons": {
+      "refreshNow": "Обнови сега",
+      "viewDetails": "Виж детайли",
+      "viewResponses": "Виж отговори",
+      "openLink": "Отвори",
+      "close": "Затвори"
+    },
+    "table": {
+      "headers": {
+        "surveyTemplate": "Шаблон",
+        "supplier": "Доставчик",
+        "status": "Статус",
+        "progress": "Прогрес",
+        "created": "Създадена",
+        "expires": "Изтича",
+        "timeRemaining": "Оставащо време",
+        "actions": ""
+      }
+    },
+    "details": {
+      "title": "Детайли на анкета",
+      "fields": {
+        "surveyId": "ID на анкета",
+        "template": "Шаблон",
+        "supplier": "Доставчик",
+        "status": "Статус"
+      },
+      "timeline": {
+        "title": "Хронология",
+        "created": "Създадена",
+        "sent": "Изпратена",
+        "expires": "Изтича"
+      }
+    },
+    "responses": {
+      "title": "Отговори на анкета",
+      "question": "Въпрос {{questionId}}",
+      "response": "Отговор: {{response}}",
+      "updated": "Обновена: {{date}}",
+      "noResponses": "Все още няма отговори"
+    },
+    "settings": {
+      "autoRefresh": "Автоматично обновяване"
+    },
+    "messages": {
+      "failedToLoadInstances": "Неуспешно зареждане на инстанции на анкети",
+      "failedToLoadResponses": "Неуспешно зареждане на отговори на анкети"
+    },
+    "fallback": {
+      "template": "Шаблон {{templateId}}",
+      "supplier": "Доставчик {{supplierId}}"
+    }
+  },
+  "fileField": {
+    "uploadFile": "Качи файл",
+    "uploadFiles": "Качи файлове",
+    "dropFileHere": "или пусни файл тук",
+    "dropFilesHere": "или пусни файлове тук",
+    "acceptedFormats": "Приети формати: {{formats}}",
+    "uploaded": "Качен"
+  },
+  "validation": {
+    "required": "Това поле е задължително",
+    "minItems": "Необходими са поне {{count}} елемента",
+    "errorTitle": "Моля, попълнете следните задължителни полета:"
+  },
+  "step": "Стъпка {{number}}",
+  "autoSaving": "Автоматично запазване на вашите отговори...",
+  "submission": {
+    "thankYou": "Благодарим Ви!",
+    "completed": "Вашата анкета беше изпратена успешно.",
+    "whatHappensNext": "Какво следва?",
+    "reviewProcess": "Нашият екип ще прегледа вашето подаване и може да се свърже с вас, ако е необходима допълнителна информация.",
+    "contactInfo": "Ако имате въпроси, моля, свържете се с нас на support@nentropy.com",
+    "downloadCopy": "Изтеглете копие на вашето подаване",
+    "returnToDashboard": "Върнете се към таблото за управление",
+    "surveyCompleted": "Анкетата е завършена",
+    "completedOn": "Тази анкета беше завършена на {{date}}",
+    "noMoreChanges": "Не са разрешени повече промени."
+  }
+}

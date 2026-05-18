@@ -1,0 +1,41 @@
+{
+  "title": "Информация за подаване на DDS",
+  "subtitle": "Информация за подаване на DDS",
+  "createNewBatch": "Създаване на нова партида",
+  "micro": {
+    "title": "Микро DDS Проучвания",
+    "subtitle": "Събиране на DDS номера от доставчици (за търговци)",
+    "create": "Създай Микро DDS Проучване",
+    "verify": "Потвърди DDS",
+    "noSurveys": "Не са намерени Микро DDS проучвания",
+    "fields": {
+      "supplier": "Доставчик",
+      "product": "Продукт",
+      "batch": "Партида",
+      "ddsNumber": "DDS Номер",
+      "ddsExpiryDate": "Дата на изтичане на DDS",
+      "verifiedAt": "Потвърдено на",
+      "verificationNotes": "Бележки за потвърждение",
+      "created": "Създадено на"
+    }
+  },
+  "mini": {
+    "title": "Мини DDS Проучвания",
+    "subtitle": "Събиране на данни за реколта и геолокация (за оператори)",
+    "create": "Създай Мини DDS Проучване",
+    "noSurveys": "Не са намерени Мини DDS проучвания",
+    "fields": {
+      "supplier": "Доставчик",
+      "product": "Продукт",
+      "batch": "Партида",
+      "harvestDate": "Дата на реколта",
+      "geolocations": "Геолокации",
+      "totalArea": "Обща площ (ха)",
+      "farmerId": "ID на фермер",
+      "farmerName": "Име на фермер",
+      "certifications": "Сертификати",
+      "notes": "Бележки",
+      "created": "Създадено на"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "fields": {
+    "name": "Name",
+    "description": "Description",
+    "country": "Country",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "region": "Region",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "status": "Status",
+    "created": "Created",
+    "updated": "Updated",
+    "lastUpdated": "Last Updated",
+    "category": "Category",
+    "type": "Type",
+    "quantity": "Quantity",
+    "weight": "Weight",
+    "unit": "Unit",
+    "date": "Date",
+    "time": "Time",
+    "coordinates": "Coordinates",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "area": "Area",
+    "origin": "Origin"
+  },
+  "actions": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "submit": "Submit",
+    "create": "Create",
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "download": "Download",
+    "upload": "Upload",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "saveChanges": "Save Changes",
+    "getStarted": "Get Started",
+    "viewDashboard": "View Dashboard",
+    "manageSuppliers": "Manage Suppliers",
+    "demo": "Demo",
+    "actions": "Actions",
+    "confirmDelete": "Confirm Delete",
+    "deleteConfirmation": "Are you sure you want to delete {{item}}?"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "tooShort": "Too short",
+    "tooLong": "Too long",
+    "invalidFormat": "Invalid format"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "noData": "No data available",
+    "error": "An error occurred",
+    "success": "Success",
+    "saved": "Saved successfully",
+    "deleted": "Deleted successfully",
+    "updated": "Updated successfully",
+    "created": "Created successfully",
+    "warning": "Warning"
+  },
+  "eudr": {
+    "compliance": "EUDR Compliance",
+    "relevant": "EUDR Relevant",
+    "regulation": "EU Deforestation Regulation",
+    "commodities": {
+      "cattle": "Cattle",
+      "cocoa": "Cocoa",
+      "coffee": "Coffee",
+      "palmOil": "Palm Oil",
+      "rubber": "Rubber",
+      "soy": "Soy",
+      "woodProducts": "Wood Products"
+    }
+  },
+  "units": {
+    "kg": "kg",
+    "tons": "tons",
+    "hectares": "hectares",
+    "pieces": "pieces",
+    "liters": "liters",
+    "cubic_meters": "cubic meters"
+  },
+  "yesNo": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "none": "None",
+  "search": {
+    "placeholder": "Search..."
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "title": "Оценки на риска",
+  "subtitle": "Оценка и управление на рисковете на доставчици и продукти",
+  "create": "Създаване на оценка на риска",
+  "newAssessment": "Нова оценка",
+  "noAssessments": "Не са намерени оценки на риска. Създайте първата си оценка, за да започнете.",
+  "createDialog": {
+    "title": "Създаване на нова оценка на риска",
+    "selectSupplier": "Доставчик (с попълнено проучване)",
+    "noSurveys": "Не са намерени доставчици с попълнени проучвания.",
+    "noSurveysDetails": "Доставчиците трябва да попълнят проучване, преди да можете да създадете оценка на риска.",
+    "assessmentTypeInfo": "Оценката ще бъде създадена като тип {{type}} въз основа на попълненото {{template}}.",
+    "cancel": "Отказ",
+    "creating": "Създаване...",
+    "createButton": "Създай"
+  },
+  "detail": {
+    "title": "Оценка на риска",
+    "unknownSupplier": "Неизвестен доставчик",
+    "exportPdf": "Експорт в PDF",
+    "exportJson": "Експорт в JSON",
+    "edit": "Редактиране",
+    "created": "Създадена",
+    "completed": "Завършена",
+    "autoFilled": "Попълнено автоматично",
+    "riskScore": "Рискова оценка",
+    "completionProgress": "Напредък на попълване",
+    "criticalRedFlags": "Критични рискови флагове",
+    "riskBreakdown": "Разбивка на риска",
+    "assessmentResponses": "Отговори на оценката",
+    "viewData": "Преглед на данните",
+    "noResponses": "Все още няма записани отговори.",
+    "attachments": "Прикачени файлове",
+    "noAttachments": "Все още няма качени файлове.",
+    "uploaded": "Качен",
+    "view": "Преглед",
+    "download": "Изтегляне",
+    "delete": "Изтриване",
+    "containsRedFlags": "Тази оценка съдържа критични рискови флагове, които изискват внимание.",
+    "idNotProvided": "Не е предоставен идентификатор на оценка на риска",
+    "loadError": "Неуспешно зареждане на оценката на риска. Моля, опитайте отново."
+  },
+  "edit": {
+    "title": "Редактиране на оценка на риска",
+    "save": "Запази",
+    "saving": "Записване...",
+    "submitForReview": "Изпращане за преглед",
+    "back": "Назад",
+    "unsavedChanges": "Имате незапазени промени. Сигурни ли сте, че искате да напуснете?",
+    "unsavedChangesInfo": "Имате незапазени промени",
+    "formCompletion": "Попълване на формуляр",
+    "approved": "Тази оценка на риска е одобрена и не може да бъде редактирана.",
+    "viewAssessment": "Преглед на оценката",
+    "calculateRisk": "Изчисляване на риска",
+    "riskAssessmentResults": "Резултати от оценката на риска",
+    "overallRiskScore": "Обща рискова оценка",
+    "highRiskOnly": "Само при висок риск",
+    "requiredFieldsWarning": "Моля, попълнете задължителните полета: {{fields}}"
+  },
+  "fields": {
+    "supplier": "Доставчик",
+    "product": "Продукт",
+    "assessmentDate": "Дата на оценка",
+    "riskLevel": "Ниво на риск",
+    "riskFactors": "Рискови фактори",
+    "mitigationMeasures": "Мерки за смекчаване",
+    "nextReview": "Дата на следващ преглед",
+    "status": "Статус",
+    "type": "Тип оценка"
+  },
+  "sections": {
+    "supplierInformation": "Информация за доставчика",
+    "basicInformation": "Основна информация",
+    "productInformation": "Информация за продукта",
+    "originDeclaration": "Декларация за произход",
+    "speciesInformation": "Информация за видовете",
+    "speciesVerification": "Проверка на видовете",
+    "certificationStatus": "Статус на сертификация",
+    "certificationStandards": "Сертификация и стандарти",
+    "eudrCompliance": "EUDR съответствие",
+    "riskManagement": "Управление на риска",
+    "geolocationData": "Геолокационни данни",
+    "countryRisk": "Риск на държавата",
+    "plantationRiskAssessment": "Оценка на риска на плантациите",
+    "harvestInformation": "Информация за добив",
+    "legalCompliance": "Правно съответствие",
+    "thirdPartyVerification": "Проверка от трета страна",
+    "sustainabilityReporting": "Доклади за устойчивост",
+    "socialImpact": "Социално и екологично въздействие",
+    "socialSafeguards": "Социални гаранции",
+    "riskMitigation": "Смекчаване на риска",
+    "declaration": "Декларация и потвърждение",
+    "riskScoringNonEU": "Рискова оценка (не-ЕС)",
+    "riskBasedActions": "Действия, базирани на риска (само за висок риск)",
+    "monitoringReview": "Мониторинг и преглед",
+    "otherDocuments": "Други документи"
+  },
+  "formFields": {
+    "companyName": "Име на компанията",
+    "registeredAddress": "Регистриран адрес",
+    "vatEoriNumber": "ДДС/EORI номер",
+    "contactPerson": "Лице за контакт",
+    "email": "Имейл",
+    "phone": "Телефон",
+    "website": "Уебсайт",
+    "productName": "Име на продукта",
+    "hsCnCode": "HS/CN код",
+    "productDescription": "Описание",
+    "materialType": "Тип материал",
+    "intendedUse": "Предназначена употреба",
+    "originClassification": "Основна класификация на произход",
+    "euMemberStates": "Държави членки на ЕС на произход",
+    "geolocationAvailable": "Налични геолокационни данни",
+    "primarySpeciesScientific": "Основен вид - Научно име",
+    "primarySpeciesCommon": "Основен вид - Общо име",
+    "primarySpeciesPercentage": "Основен вид - Процент",
+    "secondarySpeciesScientific": "Вторичен вид - Научно име",
+    "secondarySpeciesCommon": "Вторичен вид - Общо име",
+    "secondarySpeciesPercentage": "Вторичен вид - Процент",
+    "forestCertifications": "Сертификати за управление на гори",
+    "fscLicenseNumber": "FSC номер",
+    "pefcLicenseNumber": "PEFC лицензен номер",
+    "chainOfCustody": "Сертификати за верига на попечителство",
+    "fscCocNumber": "FSC CoC номер на сертификат",
+    "pefcCocNumber": "PEFC CoC номер на сертификат",
+    "deforestationDeclaration": "Декларирам, че тези продукти не са произведени на земя, обезлесена след 31 декември 2020 г.",
+    "legalityDeclaration": "Декларирам, че тези продукти са произведени в съответствие с приложимото законодателство",
+    "dueDiligenceStatement": "Проведох подходяща проверка за верификация на съответствието с EUDR",
+    "riskAssessmentConducted": "Проведена оценка на риска",
+    "riskLevel": "Ниво на риск",
+    "supportingDocuments": "Налична подкрепяща документация",
+    "cooperationCommitment": "Ангажимент за сътрудничество",
+    "assessmentDate": "Дата на оценка",
+    "assessor": "Оценяващ",
+    "supplierName": "Име на доставчика",
+    "countryOfOrigin": "Държава на произход",
+    "productsAssessed": "Оценени продукти (продуктови кодове)",
+    "country": "Държава",
+    "euRiskLevel": "ЕС ниво на риск (Май 2025)",
+    "geolocationProvided": "Предоставени геолокационни данни",
+    "coordinateAccuracy": "Точност на координатите",
+    "harvestingLicense": "Лиценз/разрешително за добив",
+    "landOwnershipDocs": "Документи за собственост на земята",
+    "environmentalPermits": "Екологични разрешителни",
+    "transportDocuments": "Транспортни/експортни документи",
+    "taxComplianceStatus": "Статус на данъчно съответствие",
+    "complianceVerificationBy": "Правното съответствие е проверено от",
+    "knownViolations": "Известни нарушения",
+    "legalRiskScore": "Рискова оценка за законност",
+    "primarySpeciesScientificName": "Основен вид - Научно име",
+    "primarySpeciesCommonNames": "Основен вид - Общи имена",
+    "primarySpeciesVolume": "Основен вид - Процент по обем",
+    "primarySpeciesCitesStatus": "Основен вид - CITES статус",
+    "primarySpeciesIucnStatus": "Основен вид - IUCN Червен списък",
+    "secondarySpeciesScientificName": "Вторичен вид - Научно име",
+    "secondarySpeciesVolume": "Вторичен вид - Процент по обем",
+    "secondarySpeciesCitesStatus": "Вторичен вид - CITES статус",
+    "secondarySpeciesIucnStatus": "Вторичен вид - IUCN Червен списък",
+    "highConservationValue": "Видове с висока консервационна стойност",
+    "mitigationMeasures": "Мерки за смекчаване (ако е HCV вид)",
+    "commerciallyThreatened": "Търговски застрашени видове",
+    "sustainabilityEvidence": "Доказателство за устойчивост (ако е застрашен)",
+    "speciesDocumentationQuality": "Качество на документацията за видовете",
+    "speciesRiskScore": "Рискова оценка за видовете",
+    "indigenousPeoplesFpicStatus": "Коренни народи и FPIC статус",
+    "childLaborRisk": "Риск от детски труд",
+    "forcedLaborRisk": "Риск от принудителен труд",
+    "humanRightsDueDiligence": "Проверка на правата на човека",
+    "socialRiskScore": "Социална рискова оценка",
+    "fscForestManagementStatus": "FSC статус на управление на гори",
+    "fscCertificateNumber": "FSC номер на сертификат",
+    "fscValidityDate": "FSC дата на валидност",
+    "fscScopeCoverage": "FSC обхват на покритие (%)",
+    "pefcForestManagementStatus": "PEFC статус на управление на гори",
+    "pefcCertificateNumber": "PEFC номер на сертификат",
+    "pefcValidityDate": "PEFC дата на валидност",
+    "pefcScopeCoverage": "PEFC обхват на покритие (%)",
+    "enhancedSupplyChainMapping": "Изисква се подобрено картографиране на веригата на доставки",
+    "independentVerification": "Изисква се независима проверка от трета страна",
+    "increasedMonitoringFrequency": "Увеличена честота на мониторинг",
+    "additionalDocumentation": "Изисква се допълнителна документация",
+    "riskMitigationPlan": "План за смекчаване на риска",
+    "reviewSchedule": "График на прегледи (месеци)",
+    "standardMonitoringFrequency": "Стандартна честота на мониторинг",
+    "keyPerformanceIndicators": "Ключови показатели за ефективност",
+    "alertThresholds": "Прагове на сигнали",
+    "reportingRequirements": "Изисквания за отчитане",
+    "nextReviewDate": "Дата на следващ преглед",
+    "plantationRiskAssessments": "Оценки на риска на плантациите",
+    "countrySummary": "По държави"
+  },
+  "fieldOptions": {
+    "originClassification": {
+      "euOnly": "Само ЕС произход",
+      "nonEu": "Не-ЕС произход",
+      "mixed": "Смесен произход"
+    },
+    "geolocationAvailable": {
+      "yesCoordinates": "Да - Предоставени GPS координати/полигони",
+      "noOnRequest": "Не - Налични при поискване",
+      "notApplicable": "Не е приложимо (само ЕС произход)"
+    },
+    "geolocationProvided": {
+      "yesComplete": "Да - Пълни координати",
+      "yesPartial": "Да - Частични координати",
+      "no": "Не - Не са предоставени"
+    },
+    "coordinateAccuracy": {
+      "high": "Висока (GPS/геодезично ниво)",
+      "medium": "Средна (ръчен GPS)",
+      "low": "Ниска (приблизителна)",
+      "unknown": "Неизвестна"
+    },
+    "alertStatus": {
+      "noAlerts": "НЯМА СИГНАЛИ",
+      "alertsResolved": "РЕШЕНИ СИГНАЛИ",
+      "unresolvedAlerts": "НЕРЕШЕНИ СИГНАЛИ",
+      "confirmedDeforestation": "ПОТВЪРДЕНО ОБЕЗЛЕСЯВАНЕ"
+    },
+    "resolutionStatus": {
+      "na": "Н/П",
+      "investigated": "РАЗСЛЕДВАНО И ИЗЧИСТЕНО",
+      "mitigationPlan": "ПЛАН ЗА СМЕКЧАВАНЕ",
+      "nonCompliant": "НЕСЪОТВЕТСТВАЩО"
+    },
+    "chainCompleteness": {
+      "yes": "ДА",
+      "gaps": "УСТАНОВЕНИ ПРАЗНОТИ"
+    },
+    "documentationQuality": {
+      "excellent": "Отлично - Пълна документирана верига",
+      "good": "Добро - Малки приемливи празноти",
+      "fair": "Задоволително - Липсва част от документацията",
+      "poor": "Лошо - Установени големи празноти",
+      "unacceptable": "Неприемливо - Липсва критична информация"
+    },
+    "harvestingLicense": {
+      "validVerified": "Валиден - Проверен",
+      "validNotVerified": "Валиден - Не е проверен",
+      "expired": "Изтекъл",
+      "notRequired": "Не се изисква",
+      "missing": "Липсва"
+    },
+    "landOwnershipDocs": {
+      "complete": "Пълни",
+      "partial": "Частични",
+      "missing": "Липсват",
+      "notApplicable": "Не е приложимо"
+    },
+    "environmentalPermits": {
+      "allObtained": "Всички получени",
+      "someMissing": "Някои липсват",
+      "notRequired": "Не се изискват",
+      "unknown": "Неизвестно"
+    },
+    "transportDocuments": {
+      "complete": "Пълни",
+      "partial": "Частични",
+      "missing": "Липсват"
+    },
+    "taxComplianceStatus": {
+      "compliant": "Съответстващо",
+      "outstandingIssues": "Изтъкнати проблеми",
+      "unknown": "Неизвестно"
+    },
+    "complianceVerificationBy": {
+      "supplier": "ДОСТАВЧИК",
+      "thirdParty": "ТРЕТА СТРАНА",
+      "unverified": "НЕПРОВЕРЕНО"
+    },
+    "knownViolations": {
+      "none": "НЯМА",
+      "resolved": "РЕШЕНИ",
+      "ongoing": "ТЕКУЩИ",
+      "unknown": "НЕИЗВЕСТНИ"
+    },
+    "citesStatus": {
+      "notListed": "НЕ Е ВКЛЮЧЕН",
+      "appendixI": "ПРИЛОЖЕНИЕ I",
+      "appendixII": "ПРИЛОЖЕНИЕ II",
+      "appendixIII": "ПРИЛОЖЕНИЕ III"
+    },
+    "iucnStatus": {
+      "lc": "LC (Незастрашен)",
+      "nt": "NT (Почти застрашен)",
+      "vu": "VU (Уязвим)",
+      "en": "EN (Застрашен)",
+      "cr": "CR (Критично застрашен)",
+      "ex": "EX (Изчезнал)"
+    },
+    "iucnStatusShort": {
+      "lc": "LC",
+      "nt": "NT",
+      "vu": "VU",
+      "en": "EN",
+      "cr": "CR",
+      "ex": "EX"
+    },
+    "highConservationValue": {
+      "yes": "ДА",
+      "no": "НЕ"
+    },
+    "speciesDocumentationQuality": {
+      "verified": "ПРОВЕРЕНО",
+      "questionable": "СЪМНИТЕЛНО",
+      "missing": "ЛИПСВА"
+    },
+    "indigenousPeoplesFpicStatus": {
+      "notApplicable": "НЕ Е ПРИЛОЖИМО - НЯМА КОРЕННИ ТЕРИТОРИИ",
+      "obtainedVerified": "FPIC ПОЛУЧЕН - ДОКУМЕНТАЦИЯ ПРОВЕРЕНА",
+      "obtainedPartial": "FPIC ПОЛУЧЕН - ДОКУМЕНТАЦИЯ ЧАСТИЧНА",
+      "inProgress": "FPIC В ПРОЦЕС",
+      "notObtainedRisk": "FPIC НЕ Е ПОЛУЧЕН - УСТАНОВЕН РИСК"
+    },
+    "laborRisk": {
+      "noRisk": "БЕЗ РИСК",
+      "low": "НИСЪК",
+      "medium": "СРЕДЕН",
+      "high": "ВИСОК"
+    },
+    "humanRightsDueDiligence": {
+      "conducted": "ПРОВЕДЕНА",
+      "basic": "ОСНОВНА",
+      "notConducted": "НЕ Е ПРОВЕДЕНА"
+    },
+    "traditionalUseRights": {
+      "notApplicable": "НЕ Е ПРИЛОЖИМО",
+      "respected": "ЗАЧЕТЕНИ",
+      "violationsIdentified": "УСТАНОВЕНИ НАРУШЕНИЯ"
+    },
+    "certificationStatus": {
+      "certified": "СЕРТИФИЦИРАН",
+      "notCertified": "НЕ Е СЕРТИФИЦИРАН"
+    },
+    "yesNo": {
+      "yes": "ДА",
+      "no": "НЕ"
+    },
+    "monitoringFrequencyStandard": {
+      "quarterly": "Тримесечно",
+      "biAnnually": "Полугодишно",
+      "annually": "Годишно"
+    },
+    "monitoringFrequencyIncreased": {
+      "monthly": "Месечно",
+      "biWeekly": "Двуседмично",
+      "weekly": "Седмично"
+    }
+  },
+  "riskLevels": {
+    "low": "Нисък",
+    "medium": "Среден",
+    "high": "Висок",
+    "critical": "Критичен",
+    "negligible": "Незначителен",
+    "standard": "Стандартен"
+  },
+  "status": "Статус",
+  "statusTypes": {
+    "DRAFT": "Чернова",
+    "IN_PROGRESS": "В процес",
+    "COMPLETED": "Завършен",
+    "REQUIRES_REVIEW": "Изисква преглед",
+    "APPROVED": "Одобрен",
+    "REJECTED": "Отхвърлен"
+  },
+  "lastReview": "Последен преглед",
+  "actions": {
+    "view": "Преглед",
+    "edit": "Редактиране",
+    "conductAssessment": "Проведи оценка",
+    "updateAssessment": "Актуализирай оценката",
+    "generateReport": "Генерирай доклад",
+    "exportPdf": "Експорт в PDF",
+    "exportJson": "Експорт в JSON"
+  },
+  "messages": {
+    "assessmentCreated": "Оценката на риска е създадена успешно",
+    "assessmentUpdated": "Оценката на риска е актуализирана успешно",
+    "selectSupplier": "Моля, изберете доставчик",
+    "supplierNotFound": "Избраният доставчик не е намерен",
+    "createError": "Неуспешно създаване на оценка на риска",
+    "pdfExported": "PDF е експортиран успешно",
+    "pdfExportError": "Неуспешен експорт в PDF",
+    "jsonExported": "JSON е експортиран успешно",
+    "jsonExportError": "Неуспешен експорт в JSON",
+    "attachmentDeleted": "Прикаченият файл е изтрит успешно",
+    "attachmentDeleteError": "Неуспешно изтриване на прикачен файл",
+    "saved": "Промените са запазени успешно",
+    "saveError": "Неуспешно запазване на промените",
+    "riskCalculated": "Рискът е изчислен успешно",
+    "riskCalculateError": "Неуспешно изчисляване на риска",
+    "submitted": "Изпратено за преглед успешно",
+    "submitError": "Неуспешно изпращане за преглед"
+  },
+  "versioning": {
+    "version": "Версия",
+    "latest": "Последна",
+    "viewVersion": "Преглед на версия",
+    "compareWithCurrent": "Сравни с текущата",
+    "restoreVersion": "Възстанови версия",
+    "noVersionHistory": "Няма налична история на версиите",
+    "versionHistory": "История на версиите",
+    "versionComparison": "Сравнение на версии",
+    "createNewVersion": "Създай нова версия",
+    "createVersion": "Създай версия",
+    "currentVersion": "Текуща версия",
+    "newVersionWillBe": "Новата версия ще бъде",
+    "versionNotes": "Бележки за версията",
+    "versionNotesPlaceholder": "Опишете какво е променено в тази версия...",
+    "versionNotesHelp": "Обяснете какви промени са направени и защо",
+    "versionNotesRequired": "Бележките за версията са задължителни",
+    "createVersionWarning": "Това ще създаде нова версия и ще маркира текущата версия като заменена. Текущата версия ще бъде запазена в историята.",
+    "restoreVersionWarning": "Внимание: Това ще създаде нова версия!",
+    "restoreVersionExplanation": "Възстановяването на предишна версия създава нова версия базирана на старите данни. То не изтрива текущата версия.",
+    "restoringFrom": "Възстановяване от",
+    "new": "Нова",
+    "willBeCreated": "Ще бъде създадена",
+    "originalVersionNotes": "Оригинални бележки за версията",
+    "restoreVersionNotesPlaceholder": "Обяснете защо възстановявате тази версия...",
+    "explainWhyRestoring": "Обяснете причината за възстановяване на тази версия",
+    "oldValue": "Стара стойност",
+    "newValue": "Нова стойност",
+    "riskLevelChanged": "Нивото на риск е променено",
+    "noChangesBetweenVersions": "Няма промени между тези версии",
+    "statusAndMetadata": "Статус и метаданни",
+    "assessmentData": "Данни на оценката",
+    "fields": {
+      "status": "Статус",
+      "riskLevel": "Ниво на риск",
+      "overallRiskScore": "Общ резултат за риск",
+      "hasRedFlags": "Има червени флагове",
+      "validUntil": "Валидна до",
+      "completedAt": "Завършена на",
+      "approvedAt": "Одобрена на"
+    },
+    "changeTypes": {
+      "added": "Добавено",
+      "removed": "Премахнато",
+      "modified": "Променено"
+    },
+    "versionCreated": "Версията е създадена успешно",
+    "versionCreateError": "Неуспешно създаване на версия",
+    "versionRestored": "Версията е възстановена успешно",
+    "versionRestoreError": "Неуспешно възстановяване на версия"
+  },
+  "tabs": {
+    "assessmentForm": "Формуляр за оценка",
+    "surveyDocuments": "Документи от анкетата"
+  },
+  "documents": {
+    "title": "Документи от анкетата",
+    "noDocuments": "Няма налични документи от анкетата. Тази оценка няма свързана анкета на доставчик с качени файлове.",
+    "loadError": "Неуспешно зареждане на документите от анкетата. Моля, опитайте отново.",
+    "download": "Изтегляне",
+    "fileCount": "{{count}} файл(а)",
+    "sectionEmpty": "Няма документи в тази секция"
+  }
+}

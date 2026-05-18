@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "N'entropy — Simply works",
+    "description": "IFS Simply Works — an interactive story by nentropy."
+  },
+  "nav": {
+    "contact": "Contact",
+    "app": "Sign in to the platform",
+    "scrollHint": "Scroll — each part appears on its own"
+  },
+  "cta": {
+    "title": "Ready to move from chaos to order?",
+    "subtitle": "Contact us for a platform demo.",
+    "website": "www.joinnentropy.com"
+  },
+  "contact": {
+    "rumen": "Rumen Lozanov",
+    "konstantin": "Konstantin Markov"
+  },
+  "qr": {
+    "title": "Open with QR code",
+    "hint": "Scan to open the brochure on your phone"
+  },
+  "scenes": {
+    "simplyWorks": {
+      "eyebrow": "N'entropy",
+      "title": "Simply works",
+      "titleAccent": "for you...",
+      "subtitle": "even when you're not there."
+    },
+    "transparency": {
+      "title": "Transparency",
+      "titleAccent": "and trust"
+    },
+    "growth": {
+      "title": "From trust",
+      "titleAccent": "to growth",
+      "footer": "Holistic view · Full traceability",
+      "tags": ["DPP", "IFS", "EUDR"]
+    },
+    "chaosStart": {
+      "title": "Chaos starts",
+      "titleAccent": "with one document."
+    },
+    "chaosNeverStops": {
+      "title": "And it never",
+      "titleAccent": "stops."
+    },
+    "scanning": {
+      "title": "Scanning is",
+      "titleAccent": "not digitization.",
+      "body": "A PDF in a folder ≠ traceability. Live data connects the chain in real time."
+    },
+    "supplyChain": {
+      "title": "The supply",
+      "titleAccent": "chain",
+      "steps": [
+        "Farm",
+        "Supplier",
+        "Production",
+        "Logistics",
+        "Retailer",
+        "Consumer"
+      ],
+      "dppSubtitle": "Scan · Verify · Trust",
+      "menuItems": [
+        "QR code",
+        "Origin",
+        "Allergens",
+        "Freshness",
+        "Carbon footprint",
+        "Feedback"
+      ]
+    },
+    "dppLayers": {
+      "title": "Interactive layers",
+      "body": "Switch the view by role.",
+      "layerCaptions": [
+        "Origin data",
+        "Certificates & approvals",
+        "Quality control",
+        "Real-time monitoring",
+        "Full traceability"
+      ],
+      "layerItems": [
+        ["Farm ID", "Location (GPS)", "Crop / breed", "Harvest date", "Sustainable practices"],
+        ["Certificates", "Supplier approvals", "Supplier rating", "Documentation", "Compliance checks"],
+        ["HACCP logs", "Lab analyses", "Batch files", "Production records", "Quality checks"],
+        ["Temperature control", "GPS tracking", "Deviation alerts", "Transport conditions", "Real-time deliveries"],
+        ["Product history", "Stock levels", "Shelf life", "Batch recall", "Partner transparency"]
+      ]
+    },
+    "feedback": {
+      "title": "Your choice",
+      "titleAccent": "matters",
+      "benefitItems": [
+        "Less waste",
+        "More trust",
+        "Lower footprint",
+        "Better products"
+      ]
+    },
+    "hiddenGold": {
+      "title": "Hidden gold mine",
+      "subtitle": "Your data = market advantage"
+    },
+    "transformation": {
+      "title": "Transformation",
+      "body": "Automation. Connection. Structure."
+    },
+    "dataValue": {
+      "title": "Data becomes",
+      "subtitle": "information. Visualizations. Real value."
+    },
+    "forecasts": {
+      "title": "Market forecasts",
+      "forecastItems": ["Patterns", "Regions", "Preferences"]
+    },
+    "compliance": {
+      "title": "Regulatory wall",
+      "titleAccent": "Automated compliance.",
+      "subtitle": "One platform. Full control. Ongoing compliance.",
+      "regulations": ["EU DPP", "ISO", "HACCP", "BRCGS", "CSRD"]
+    },
+    "future": {
+      "title": "Future-proof your supply chain",
+      "subtitle": "We build trust. We drive growth.",
+      "body": "One intelligent platform. Endless possibilities."
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Survey Management",
+  "subtitle": "Create and manage supplier surveys",
+  "templates": "Templates",
+  "activeSurveys": "Active Surveys",
+  "responses": "Survey Responses",
+  "createTemplate": "Create Survey Template",
+  "sendSurvey": "Send Survey",
+  "fields": {
+    "templateName": "Template Name",
+    "description": "Description",
+    "applicableCommodities": "Applicable Commodities",
+    "questions": "Questions",
+    "supplier": "Supplier",
+    "dueDate": "Due Date",
+    "status": "Status"
+  },
+  "status": {
+    "sent": "Sent",
+    "completed": "Completed",
+    "overdue": "Overdue",
+    "draft": "Draft"
+  },
+  "actions": {
+    "generateLink": "Generate Link",
+    "downloadWord": "Download Word",
+    "sendEmail": "Send Email",
+    "viewResponses": "View Responses"
+  },
+  "messages": {
+    "templateCreated": "Survey template created successfully",
+    "surveySent": "Survey sent successfully",
+    "responseReceived": "Response received successfully",
+    "failedToLoadTemplates": "Failed to load survey templates",
+    "failedToLoadInstances": "Failed to load survey instances",
+    "failedToLoadSuppliers": "Failed to load suppliers",
+    "surveyCreated": "Survey \"{{templateName}}\" created for supplier \"{{supplierName}}\"!",
+    "failedToCreateSurvey": "Failed to create survey",
+    "noTemplateForSupplierOrigin": "No supplier compliance template matches this supplier (EU vs non-EU). Create an active template with the correct \"EU\" flag, or adjust the supplier's origin.",
+    "noSupplierComplianceTemplates": "No supplier compliance survey templates are available. This page only uses templates of type SUPPLIER_COMPLIANCE (DDS survey templates cannot be used here). Create at least one EU and/or non-EU compliance template.",
+    "linkCopied": "Survey link copied to clipboard!",
+    "failedToCopyLink": "Failed to copy link to clipboard",
+    "emailSent": "Invitation email sent successfully.",
+    "noSupplierEmail": "Warning: Supplier has no email address. Please send the survey link manually.",
+    "emailSendFailed": "Warning: Failed to send invitation email. Please send the survey link manually."
+  },
+  "tabs": {
+    "templates": "Templates",
+    "sentOut": "Sent out",
+    "monitoring": "Monitoring"
+  },
+  "dialog": {
+    "createSurvey": "Create a Supplier Survey",
+    "surveyTemplate": "Survey Template",
+    "supplier": "Supplier",
+    "expirationDays": "Expiration Days",
+    "expirationHelperText": "Number of days the survey will be available",
+    "includePlotQuestion": "Include EUDR-specific questions",
+    "includePlotQuestionHelp": "If enabled, the supplier will be asked for EUDR-specific proofs and declarations (including documentation and confirmations). Disable this if you want to exclude those fields from the survey.",
+    "includePackaging2025_40": "Include EU 2025/40 Packaging questions",
+    "includePackaging2025_40Help": "Independent of EUDR geolocation. When enabled, each product row gets a Good type field; tech spec and EU declaration uploads appear only when Good type is Packaging.",
+    "packagingGoodType": "Good type",
+    "packagingTechnicalSpec": "Technical specification",
+    "packagingEuDeclaration": "EU declaration of conformity (2025/40 model)",
+    "packagingExpiry": "Document expiration date (optional)",
+    "cancel": "Cancel",
+    "create": "Create Survey",
+    "creating": "Creating...",
+    "willUseTemplate": "Will use template: {{name}} ({{eu}})",
+    "templateEu": "EU supplier version",
+    "templateNonEu": "Non-EU supplier version"
+  },
+  "public": {
+    "eudrSectionsExcluded": "EUDR-specific sections excluded"
+  },
+  "loading": {
+    "templates": "Loading survey templates...",
+    "instances": "Loading survey instances...",
+    "suppliers": "Loading suppliers..."
+  },
+  "empty": {
+    "noTemplates": "No survey templates found. Create your first template to get started!",
+    "noInstances": "No survey instances found. Create a survey to get started!",
+    "noSuppliers": "No suppliers found. Please add suppliers first.",
+    "noSuppliersDialog": "No suppliers found. Please add suppliers in the Suppliers section first."
+  },
+  "labels": {
+    "questions": "{{count}} questions",
+    "status": "Status:",
+    "completion": "Completion: {{percentage}}%",
+    "sent": "Sent: {{date}}",
+    "completed": "Completed: {{date}}",
+    "expires": "Expires: {{date}}",
+    "copyLink": "Copy survey link"
+  },
+  "buttons": {
+    "createSurvey": "Create Survey",
+    "addSuppliers": "Please add suppliers first to create surveys",
+    "createTemplates": "Please create survey templates first",
+    "createSupplierComplianceTemplates": "Create supplier compliance templates (EU / non-EU). DDS-only templates are not used on this page."
+  }
+}

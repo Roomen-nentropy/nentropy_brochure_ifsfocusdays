@@ -1,0 +1,128 @@
+{
+  "modal": {
+    "trialExpired": {
+      "title": "Your Free Trial Has Ended",
+      "subtitle": "Choose a plan to continue using Nentropy and maintain compliance with EUDR",
+      "infoTitle": "Your 7-day trial has expired",
+      "infoMessage": "Select a plan below to continue accessing your data and features. All plans include full access to Nentropy's EUDR compliance tools."
+    }
+  },
+  "pricing": {
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "saveDiscount": "Save 10%",
+    "perMonth": "/month",
+    "billedAnnually": "Billed annually (€{{amount}}/year)",
+    "upToSuppliers": "Up to {{count}} suppliers",
+    "unlimitedSuppliers": "Unlimited suppliers",
+    "freeTrialIncluded": "7-day free trial included",
+    "subscribe": "Subscribe",
+    "processing": "Processing...",
+    "recommendedForYou": "Recommended for you",
+    "subscribeNow": "Subscribe Now"
+  },
+  "trial": {
+    "endsToday": "Your trial ends today!",
+    "daysRemaining": "{{count}} day remaining in your trial",
+    "daysRemaining_other": "{{count}} days remaining in your trial",
+    "subscribeMessage": "Subscribe now to continue accessing all features after your trial ends.",
+    "subscribeButton": "Subscribe Now"
+  },
+  "plans": {
+    "trader": {
+      "name": "Trader",
+      "features": [
+        "Record DDS",
+        "Track Suppliers",
+        "Document Storage",
+        "Basic Reporting"
+      ]
+    },
+    "operator_importer": {
+      "name": "Operator (Import/Export) - Basic",
+      "features": [
+        "Create DDS",
+        "Risk Assessments",
+        "Send Surveys",
+        "Geolocation Tracking",
+        "Advanced Analytics",
+        "Up to 25 suppliers"
+      ]
+    },
+    "operator_importer_plus": {
+      "name": "Operator (Import/Export) - Plus",
+      "features": [
+        "Create DDS",
+        "Risk Assessments",
+        "Send Surveys",
+        "Geolocation Tracking",
+        "Advanced Analytics",
+        "Up to 50 suppliers",
+        "Priority Support"
+      ]
+    },
+    "operator_manufacturer": {
+      "name": "Operator (Manufacturer) - Basic",
+      "features": [
+        "Create DDS",
+        "Own Goods Management",
+        "Batch Management",
+        "BOM Tracking",
+        "Full Traceability",
+        "Up to 25 suppliers"
+      ]
+    },
+    "operator_manufacturer_plus": {
+      "name": "Operator (Manufacturer) - Plus",
+      "features": [
+        "Create DDS",
+        "Own Goods Management",
+        "Batch Management",
+        "BOM Tracking",
+        "Full Traceability",
+        "Up to 50 suppliers",
+        "Priority Support"
+      ]
+    },
+    "operator_domestic": {
+      "name": "Trader (Manufacturer) - Basic",
+      "features": [
+        "Create DDS",
+        "EU Surveys",
+        "Risk Assessments",
+        "Simplified Compliance",
+        "Batch Tracking",
+        "Up to 25 suppliers"
+      ]
+    },
+    "operator_domestic_plus": {
+      "name": "Trader (Manufacturer) - Plus",
+      "features": [
+        "Create DDS",
+        "EU Surveys",
+        "Risk Assessments",
+        "Simplified Compliance",
+        "Batch Tracking",
+        "Up to 50 suppliers",
+        "Priority Support"
+      ]
+    }
+  },
+  "errors": {
+    "checkoutFailed": "Failed to create checkout session",
+    "unexpectedError": "An unexpected error occurred",
+    "billingPortalFailed": "Failed to open billing portal",
+    "subscriptionFetchFailed": "Failed to fetch subscription"
+  },
+  "settings": {
+    "title": "Subscription & Billing",
+    "subtitle": "Manage your subscription plan and billing settings",
+    "currentPlan": "Current Plan",
+    "status": "Status",
+    "ends": "Ends",
+    "renews": "Renews",
+    "manageButton": "Manage Subscription",
+    "trialMessage": "You are currently on a free trial. Subscribe to a plan to continue using Nentropy after your trial ends.",
+    "noSubscriptionMessage": "You don't have an active subscription. Choose a plan below to get started."
+  }
+}

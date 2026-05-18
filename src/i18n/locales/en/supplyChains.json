@@ -1,0 +1,30 @@
+{
+  "title": "Supply Chain Management",
+  "subtitle": "Visualize and manage supply chain networks",
+  "chainMapping": "Chain Mapping",
+  "traceability": "Traceability",
+  "fields": {
+    "chainName": "Chain Name",
+    "startPoint": "Start Point",
+    "endPoint": "End Point",
+    "intermediaries": "Intermediaries",
+    "totalDistance": "Total Distance",
+    "verificationLevel": "Verification Level",
+    "supplier": "Supplier",
+    "steps": "Steps",
+    "distance": "Distance (km)",
+    "transport": "Transport",
+    "riskLevel": "Risk Level",
+    "status": "Status"
+  },
+  "copyNotice": "User Interface Feature: You can copy any text data from this interface to paste into your clients' systems. Simply select the text and copy it to your clipboard.",
+  "features": {
+    "visualization": "Visual Chain Mapping",
+    "documentation": "Documentation Management",
+    "verification": "Verification Tracking"
+  },
+  "supplyChainSteps": "Supply Chain Steps",
+  "labels": {
+    "supplyChainDetails": "Supply Chain: {{name}}"
+  }
+}

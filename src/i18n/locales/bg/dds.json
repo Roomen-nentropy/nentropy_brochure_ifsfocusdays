@@ -1,0 +1,40 @@
+{
+  "title": "Управление на DDS",
+  "subtitle": "Създаване и управление на декларации за надлежна проверка",
+  "createDds": "Създаване на нова DDS",
+  "editDds": "Редактиране на DDS",
+  "openEditor": "Отваряне на DDS редактор",
+  "fields": {
+    "supplier": "Доставчик",
+    "products": "Продукти",
+    "geolocation": "Геолокация на произход",
+    "supplyChain": "Верига на доставки",
+    "status": "Статус",
+    "completionDate": "Дата на завършване"
+  },
+  "status": {
+    "draft": "Чернова",
+    "inProgress": "В процес",
+    "completed": "Завършен",
+    "submitted": "Изпратен",
+    "approved": "Одобрен"
+  },
+  "editor": {
+    "title": "DDS редактор",
+    "aiAssist": "AI помощ",
+    "validate": "Валидиране",
+    "save": "Запазване",
+    "export": "Експортиране",
+    "template": "Шаблон"
+  },
+  "validation": {
+    "supplierRequired": "Доставчикът е задължителен",
+    "productsRequired": "Поне един продукт е задължителен",
+    "geolocationRequired": "Геолокацията е задължителна"
+  },
+  "messages": {
+    "ddsCreated": "DDS е създадена успешно",
+    "ddsUpdated": "DDS е актуализирана успешно",
+    "ddsSaved": "DDS е запазена успешно"
+  }
+}

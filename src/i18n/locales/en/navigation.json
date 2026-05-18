@@ -1,0 +1,29 @@
+{
+  "menu": {
+    "dashboard": "Dashboard",
+    "suppliers": "Suppliers",
+    "products": "Products",
+    "ownGoods": "Own Goods",
+    "surveys": "Surveys",
+    "ddsSurveys": "DDS Surveys",
+    "riskAssessments": "Risk Assessments",
+    "dds": "Declarations",
+    "supplyChains": "Chain of custody",
+    "integrations": "Integrations",
+    "geolocations": "Geolocations",
+    "production": "Production",
+    "packagingLabelling": "Packaging and labelling",
+    "settings": "Account Settings"
+  },
+  "navbar": {
+    "brand": "N'entropy",
+    "features": "Features",
+    "benefits": "Benefits",
+    "documentation": "Documentation",
+    "support": "Support",
+    "demo": "Demo",
+    "getStarted": "Get Started",
+    "settings": "Settings",
+    "signOut": "Sign Out"
+  }
+}

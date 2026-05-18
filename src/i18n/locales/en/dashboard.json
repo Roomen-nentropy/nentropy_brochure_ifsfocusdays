@@ -1,0 +1,55 @@
+{
+  "title": "Dashboard",
+  "overview": "Compliance Overview",
+  "statistics": {
+    "totalSuppliers": "Total Suppliers",
+    "totalProducts": "Total Products",
+    "pendingAssessments": "Pending Assessments",
+    "activeDds": "Active Declarations",
+    "completedDds": "Completed DDS",
+    "complianceRate": "Compliance Rate",
+    "highRiskSuppliers": "High Risk Suppliers",
+    "completedSurveys": "Completed Surveys",
+    "verifiedGeolocations": "Verified Geolocations"
+  },
+  "progress": {
+    "title": "Compliance Progress",
+    "overall": "Overall EUDR Compliance",
+    "riskAssessments": "Risk Assessments",
+    "ddsCompletion": "DDS Completion",
+    "suppliersCompliant": "of {{count}} suppliers compliant",
+    "suppliersAssessed": "of suppliers assessed",
+    "formsCompleted": "of required DDS forms completed",
+    "target": "Target: {{percentage}}%"
+  },
+  "recentActivity": {
+    "title": "Recent Activities",
+    "riskAssessmentCompleted": "Risk assessment completed for {{supplier}}",
+    "ddsSubmitted": "New DDS form submitted for {{product}}",
+    "highRiskFlagged": "High risk supplier flagged: {{supplier}}",
+    "surveyResponsesImported": "Survey responses imported from {{count}} suppliers"
+  },
+  "upcomingDeadlines": {
+    "title": "Upcoming Deadlines",
+    "ddsSubmission": "DDS submission for Q4 2024",
+    "riskAssessmentReview": "Risk assessment review for {{count}} suppliers",
+    "supplyChainVerification": "Supply chain verification for {{product}} products",
+    "due": "Due: {{date}}"
+  },
+  "timeAgo": {
+    "hoursAgo": "{{count}} hours ago",
+    "daysAgo": "{{count}} day ago",
+    "daysAgo_other": "{{count}} days ago"
+  },
+  "priority": {
+    "high": "high",
+    "medium": "medium",
+    "low": "low"
+  },
+  "messages": {
+    "noDashboardData": "No dashboard data available",
+    "noRecentActivities": "No recent activities",
+    "noUpcomingDeadlines": "No upcoming deadlines",
+    "due": "Due: {{date}}"
+  }
+}

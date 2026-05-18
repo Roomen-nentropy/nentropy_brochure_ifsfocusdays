@@ -1,0 +1,40 @@
+{
+  "title": "DDS Management",
+  "subtitle": "Create and manage Due Diligence Statements",
+  "createDds": "Create New DDS",
+  "editDds": "Edit DDS",
+  "openEditor": "Open DDS Editor",
+  "fields": {
+    "supplier": "Supplier",
+    "products": "Products",
+    "geolocation": "Origin Geolocation",
+    "supplyChain": "Supply Chain",
+    "status": "Status",
+    "completionDate": "Completion Date"
+  },
+  "status": {
+    "draft": "Draft",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "submitted": "Submitted",
+    "approved": "Approved"
+  },
+  "editor": {
+    "title": "DDS Editor",
+    "aiAssist": "AI Assist",
+    "validate": "Validate",
+    "save": "Save",
+    "export": "Export",
+    "template": "Template"
+  },
+  "validation": {
+    "supplierRequired": "Supplier is required",
+    "productsRequired": "At least one product is required",
+    "geolocationRequired": "Geolocation is required"
+  },
+  "messages": {
+    "ddsCreated": "DDS created successfully",
+    "ddsUpdated": "DDS updated successfully",
+    "ddsSaved": "DDS saved successfully"
+  }
+}

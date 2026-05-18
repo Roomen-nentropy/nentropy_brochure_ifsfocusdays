@@ -1,0 +1,461 @@
+{
+  "title": "Risk Assessments",
+  "subtitle": "Evaluate and manage supplier and product risks",
+  "create": "Create Risk Assessment",
+  "newAssessment": "New Assessment",
+  "noAssessments": "No risk assessments found. Create your first assessment to get started.",
+  "createDialog": {
+    "title": "Create New Risk Assessment",
+    "selectSupplier": "Supplier (with completed survey)",
+    "noSurveys": "No suppliers with completed surveys found.",
+    "noSurveysDetails": "Suppliers must complete a survey before you can create a risk assessment.",
+    "assessmentTypeInfo": "Assessment will be created as {{type}} type based on the completed {{template}}.",
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "createButton": "Create"
+  },
+  "detail": {
+    "title": "Risk Assessment",
+    "unknownSupplier": "Unknown Supplier",
+    "exportPdf": "Export PDF",
+    "exportJson": "Export JSON",
+    "edit": "Edit",
+    "created": "Created",
+    "completed": "Completed",
+    "autoFilled": "Auto-filled",
+    "riskScore": "Risk Score",
+    "completionProgress": "Completion Progress",
+    "criticalRedFlags": "Critical Red Flags",
+    "riskBreakdown": "Risk Breakdown",
+    "assessmentResponses": "Assessment Responses",
+    "viewData": "View Assessment Data",
+    "noResponses": "No responses recorded yet.",
+    "attachments": "Attachments",
+    "noAttachments": "No attachments uploaded yet.",
+    "uploaded": "Uploaded",
+    "view": "View",
+    "download": "Download",
+    "delete": "Delete",
+    "containsRedFlags": "This assessment contains critical red flags that require attention.",
+    "idNotProvided": "Risk assessment ID not provided",
+    "loadError": "Failed to load risk assessment. Please try again."
+  },
+  "edit": {
+    "title": "Edit Risk Assessment",
+    "save": "Save",
+    "saving": "Saving...",
+    "submitForReview": "Submit for Review",
+    "back": "Back",
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?",
+    "unsavedChangesInfo": "You have unsaved changes. Don't forget to save your progress.",
+    "formCompletion": "Form Completion",
+    "approved": "This risk assessment has been approved and cannot be edited.",
+    "viewAssessment": "View Assessment",
+    "calculateRisk": "Calculate Risk",
+    "riskAssessmentResults": "Risk Assessment Results",
+    "overallRiskScore": "Overall Risk Score",
+    "highRiskOnly": "High Risk Only",
+    "requiredFieldsWarning": "Please fill in required fields: {{fields}}"
+  },
+  "fields": {
+    "supplier": "Supplier",
+    "product": "Product",
+    "assessmentDate": "Assessment Date",
+    "riskLevel": "Risk Level",
+    "riskFactors": "Risk Factors",
+    "mitigationMeasures": "Mitigation Measures",
+    "nextReview": "Next Review Date",
+    "status": "Status",
+    "type": "Assessment Type"
+  },
+  "sections": {
+    "supplierInformation": "Supplier Information",
+    "basicInformation": "Basic Information",
+    "productInformation": "Product Information",
+    "originDeclaration": "Origin Declaration",
+    "speciesInformation": "Species Information",
+    "speciesVerification": "Species Verification",
+    "certificationStatus": "Certification Status",
+    "certificationStandards": "Certification & Standards",
+    "eudrCompliance": "EUDR Compliance",
+    "riskManagement": "Risk Management",
+    "geolocationData": "Geolocation Data",
+    "countryRisk": "Country Risk",
+    "plantationRiskAssessment": "Plantation Risk Assessment",
+    "harvestInformation": "Harvest Information",
+    "legalCompliance": "Legal Compliance",
+    "thirdPartyVerification": "Third-Party Verification",
+    "sustainabilityReporting": "Sustainability Reporting",
+    "socialImpact": "Social & Environmental Impact",
+    "socialSafeguards": "Social Safeguards",
+    "riskMitigation": "Risk Mitigation",
+    "declaration": "Declaration & Confirmation",
+    "riskScoringNonEU": "Risk Scoring (Non-EU)",
+    "riskBasedActions": "Risk-Based Actions (High Risk Only)",
+    "monitoringReview": "Monitoring & Review",
+    "otherDocuments": "Other Documents"
+  },
+  "formFields": {
+    "companyName": "Company Name",
+    "registeredAddress": "Registered Address",
+    "vatEoriNumber": "VAT/EORI Number",
+    "contactPerson": "Contact Person",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "productName": "Product Name",
+    "hsCnCode": "HS/CN Code",
+    "productDescription": "Description",
+    "materialType": "Material Type",
+    "intendedUse": "Intended Use",
+    "originClassification": "Primary Origin Classification",
+    "euMemberStates": "EU Member State(s) of Origin",
+    "geolocationAvailable": "Geolocation Data Available",
+    "primarySpeciesScientific": "Primary Species - Scientific Name",
+    "primarySpeciesCommon": "Primary Species - Common Name",
+    "primarySpeciesPercentage": "Primary Species - Percentage",
+    "secondarySpeciesScientific": "Secondary Species - Scientific Name",
+    "secondarySpeciesCommon": "Secondary Species - Common Name",
+    "secondarySpeciesPercentage": "Secondary Species - Percentage",
+    "forestCertifications": "Forest Management Certifications",
+    "fscLicenseNumber": "FSC Number",
+    "pefcLicenseNumber": "PEFC License Number",
+    "chainOfCustody": "Chain of Custody Certifications",
+    "fscCocNumber": "FSC CoC Certificate Number",
+    "pefcCocNumber": "PEFC CoC Certificate Number",
+    "deforestationDeclaration": "I declare that these products were not produced on land deforested after 31 December 2020",
+    "legalityDeclaration": "I declare that these products were produced in accordance with applicable legislation",
+    "dueDiligenceStatement": "I have conducted appropriate due diligence to verify EUDR compliance",
+    "riskAssessmentConducted": "Risk Assessment Conducted",
+    "riskLevel": "Risk Level",
+    "supportingDocuments": "Supporting Documentation Available",
+    "cooperationCommitment": "Cooperation Commitment",
+    "assessmentDate": "Assessment Date",
+    "assessor": "Assessor",
+    "supplierName": "Supplier Name",
+    "countryOfOrigin": "Country of Origin",
+    "productsAssessed": "Products Assessed (Product Codes)",
+    "country": "Country",
+    "euRiskLevel": "EU Risk Level (May 2025)",
+    "geolocationProvided": "Geolocation Data Provided",
+    "coordinateAccuracy": "Coordinate Accuracy",
+    "harvestingLicense": "Harvesting License/Permit",
+    "landOwnershipDocs": "Land Ownership Documents",
+    "environmentalPermits": "Environmental Permits",
+    "transportDocuments": "Transport/Export Documents",
+    "taxComplianceStatus": "Tax Compliance Status",
+    "complianceVerificationBy": "Legal compliance verified by",
+    "knownViolations": "Known violations",
+    "legalRiskScore": "Legal Risk Score",
+    "primarySpeciesScientificName": "Primary Species - Scientific Name",
+    "primarySpeciesCommonNames": "Primary Species - Common Name(s)",
+    "primarySpeciesVolume": "Primary Species - Percentage by Volume",
+    "primarySpeciesCitesStatus": "Primary Species - CITES Status",
+    "primarySpeciesIucnStatus": "Primary Species - IUCN Red List Status",
+    "secondarySpeciesScientificName": "Secondary Species - Scientific Name",
+    "secondarySpeciesVolume": "Secondary Species - Percentage by Volume",
+    "secondarySpeciesCitesStatus": "Secondary Species - CITES Status",
+    "secondarySpeciesIucnStatus": "Secondary Species - IUCN Red List Status",
+    "highConservationValue": "High Conservation Value Species",
+    "mitigationMeasures": "Mitigation measures (if HCV species)",
+    "commerciallyThreatened": "Commercially Threatened Species",
+    "sustainabilityEvidence": "Sustainability evidence (if threatened)",
+    "speciesDocumentationQuality": "Species Documentation Quality",
+    "speciesRiskScore": "Species Risk Score",
+    "indigenousPeoplesFpicStatus": "Indigenous Peoples & FPIC Status",
+    "childLaborRisk": "Child Labor Risk",
+    "forcedLaborRisk": "Forced Labor Risk",
+    "humanRightsDueDiligence": "Human Rights Due Diligence",
+    "socialRiskScore": "Social Risk Score",
+    "fscForestManagementStatus": "FSC Forest Management Status",
+    "fscCertificateNumber": "FSC Certificate Number",
+    "fscValidityDate": "FSC Validity Date",
+    "fscScopeCoverage": "FSC Scope Coverage (%)",
+    "pefcForestManagementStatus": "PEFC Forest Management Status",
+    "pefcCertificateNumber": "PEFC Certificate Number",
+    "pefcValidityDate": "PEFC Validity Date",
+    "pefcScopeCoverage": "PEFC Scope Coverage (%)",
+    "enhancedSupplyChainMapping": "Enhanced Supply Chain Mapping Required",
+    "independentVerification": "Independent Third-Party Verification Required",
+    "increasedMonitoringFrequency": "Increased Monitoring Frequency",
+    "additionalDocumentation": "Additional Documentation Required",
+    "riskMitigationPlan": "Risk Mitigation Plan",
+    "reviewSchedule": "Review Schedule (months)",
+    "standardMonitoringFrequency": "Standard Monitoring Frequency",
+    "keyPerformanceIndicators": "Key Performance Indicators",
+    "alertThresholds": "Alert Thresholds",
+    "reportingRequirements": "Reporting Requirements",
+    "nextReviewDate": "Next Review Date",
+    "plantationRiskAssessments": "Plantation Risk Assessments",
+    "countrySummary": "Country Summary"
+  },
+  "fieldOptions": {
+    "originClassification": {
+      "euOnly": "EU Origin Only",
+      "nonEu": "Non-EU Origin",
+      "mixed": "Mixed Origin"
+    },
+    "geolocationAvailable": {
+      "yesCoordinates": "Yes - GPS coordinates/polygons provided",
+      "noOnRequest": "No - Available upon request",
+      "notApplicable": "Not applicable (EU origin only)"
+    },
+    "geolocationProvided": {
+      "yesComplete": "Yes - Complete coordinates",
+      "yesPartial": "Yes - Partial coordinates",
+      "no": "No - Not provided"
+    },
+    "coordinateAccuracy": {
+      "high": "High (GPS/Survey grade)",
+      "medium": "Medium (Handheld GPS)",
+      "low": "Low (Approximate)",
+      "unknown": "Unknown"
+    },
+    "alertStatus": {
+      "noAlerts": "NO ALERTS",
+      "alertsResolved": "ALERTS RESOLVED",
+      "unresolvedAlerts": "UNRESOLVED ALERTS",
+      "confirmedDeforestation": "CONFIRMED DEFORESTATION"
+    },
+    "resolutionStatus": {
+      "na": "N/A",
+      "investigated": "INVESTIGATED & CLEARED",
+      "mitigationPlan": "MITIGATION PLAN",
+      "nonCompliant": "NON-COMPLIANT"
+    },
+    "chainCompleteness": {
+      "yes": "YES",
+      "gaps": "GAPS IDENTIFIED"
+    },
+    "documentationQuality": {
+      "excellent": "Excellent - Complete chain documented",
+      "good": "Good - Minor gaps acceptable",
+      "fair": "Fair - Some documentation missing",
+      "poor": "Poor - Major gaps identified",
+      "unacceptable": "Unacceptable - Critical information missing"
+    },
+    "harvestingLicense": {
+      "validVerified": "Valid - Verified",
+      "validNotVerified": "Valid - Not verified",
+      "expired": "Expired",
+      "notRequired": "Not required",
+      "missing": "Missing"
+    },
+    "landOwnershipDocs": {
+      "complete": "Complete",
+      "partial": "Partial",
+      "missing": "Missing",
+      "notApplicable": "Not applicable"
+    },
+    "environmentalPermits": {
+      "allObtained": "All obtained",
+      "someMissing": "Some missing",
+      "notRequired": "Not required",
+      "unknown": "Unknown"
+    },
+    "transportDocuments": {
+      "complete": "Complete",
+      "partial": "Partial",
+      "missing": "Missing"
+    },
+    "taxComplianceStatus": {
+      "compliant": "Compliant",
+      "outstandingIssues": "Outstanding issues",
+      "unknown": "Unknown"
+    },
+    "complianceVerificationBy": {
+      "supplier": "SUPPLIER",
+      "thirdParty": "THIRD-PARTY",
+      "unverified": "UNVERIFIED"
+    },
+    "knownViolations": {
+      "none": "NONE",
+      "resolved": "RESOLVED",
+      "ongoing": "ONGOING",
+      "unknown": "UNKNOWN"
+    },
+    "citesStatus": {
+      "notListed": "NOT LISTED",
+      "appendixI": "APPENDIX I",
+      "appendixII": "APPENDIX II",
+      "appendixIII": "APPENDIX III"
+    },
+    "iucnStatus": {
+      "lc": "LC (Least Concern)",
+      "nt": "NT (Near Threatened)",
+      "vu": "VU (Vulnerable)",
+      "en": "EN (Endangered)",
+      "cr": "CR (Critically Endangered)",
+      "ex": "EX (Extinct)"
+    },
+    "iucnStatusShort": {
+      "lc": "LC",
+      "nt": "NT",
+      "vu": "VU",
+      "en": "EN",
+      "cr": "CR",
+      "ex": "EX"
+    },
+    "highConservationValue": {
+      "yes": "YES",
+      "no": "NO"
+    },
+    "speciesDocumentationQuality": {
+      "verified": "VERIFIED",
+      "questionable": "QUESTIONABLE",
+      "missing": "MISSING"
+    },
+    "indigenousPeoplesFpicStatus": {
+      "notApplicable": "NOT APPLICABLE - NO INDIGENOUS TERRITORIES",
+      "obtainedVerified": "FPIC OBTAINED - DOCUMENTATION VERIFIED",
+      "obtainedPartial": "FPIC OBTAINED - DOCUMENTATION PARTIAL",
+      "inProgress": "FPIC IN PROGRESS",
+      "notObtainedRisk": "FPIC NOT OBTAINED - RISK IDENTIFIED"
+    },
+    "laborRisk": {
+      "noRisk": "NO RISK",
+      "low": "LOW",
+      "medium": "MEDIUM",
+      "high": "HIGH"
+    },
+    "humanRightsDueDiligence": {
+      "conducted": "CONDUCTED",
+      "basic": "BASIC",
+      "notConducted": "NOT CONDUCTED"
+    },
+    "traditionalUseRights": {
+      "notApplicable": "NOT APPLICABLE",
+      "respected": "RESPECTED",
+      "violationsIdentified": "VIOLATIONS IDENTIFIED"
+    },
+    "certificationStatus": {
+      "certified": "CERTIFIED",
+      "notCertified": "NOT CERTIFIED"
+    },
+    "yesNo": {
+      "yes": "YES",
+      "no": "NO"
+    },
+    "monitoringFrequencyStandard": {
+      "quarterly": "Quarterly",
+      "biAnnually": "Bi-annually",
+      "annually": "Annually"
+    },
+    "monitoringFrequencyIncreased": {
+      "monthly": "Monthly",
+      "biWeekly": "Bi-weekly",
+      "weekly": "Weekly"
+    }
+  },
+  "riskLevels": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical",
+    "negligible": "Negligible",
+    "standard": "Standard"
+  },
+  "status": {
+    "pending": "Pending",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "requiresUpdate": "Requires Update",
+    "DRAFT": "Draft",
+    "IN_PROGRESS": "In Progress",
+    "COMPLETED": "Completed",
+    "REQUIRES_REVIEW": "Requires Review",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "conductAssessment": "Conduct Assessment",
+    "updateAssessment": "Update Assessment",
+    "generateReport": "Generate Report",
+    "exportPdf": "Export PDF",
+    "exportJson": "Export JSON"
+  },
+  "messages": {
+    "assessmentCreated": "Risk assessment created successfully",
+    "assessmentUpdated": "Risk assessment updated successfully",
+    "selectSupplier": "Please select a supplier",
+    "supplierNotFound": "Selected supplier not found",
+    "createError": "Failed to create risk assessment",
+    "pdfExported": "PDF exported successfully",
+    "pdfExportError": "Failed to export PDF",
+    "jsonExported": "JSON exported successfully",
+    "jsonExportError": "Failed to export JSON",
+    "attachmentDeleted": "Attachment deleted successfully",
+    "attachmentDeleteError": "Failed to delete attachment",
+    "saved": "Changes saved successfully",
+    "saveError": "Failed to save changes",
+    "riskCalculated": "Risk calculated successfully",
+    "riskCalculateError": "Failed to calculate risk",
+    "submitted": "Submitted for review successfully",
+    "submitError": "Failed to submit for review"
+  },
+  "versioning": {
+    "version": "Version",
+    "latest": "Latest",
+    "viewVersion": "View Version",
+    "compareWithCurrent": "Compare with current",
+    "restoreVersion": "Restore Version",
+    "noVersionHistory": "No version history available",
+    "versionHistory": "Version History",
+    "versionComparison": "Version Comparison",
+    "createNewVersion": "Create New Version",
+    "createVersion": "Create Version",
+    "currentVersion": "Current Version",
+    "newVersionWillBe": "New version will be",
+    "versionNotes": "Version Notes",
+    "versionNotesPlaceholder": "Describe what changed in this version...",
+    "versionNotesHelp": "Explain what changes were made and why",
+    "versionNotesRequired": "Version notes are required",
+    "createVersionWarning": "This will create a new version and mark the current version as superseded. The current version will be preserved in history.",
+    "restoreVersionWarning": "Warning: This will create a new version!",
+    "restoreVersionExplanation": "Restoring a previous version creates a new version based on the old data. It does not delete the current version.",
+    "restoringFrom": "Restoring from",
+    "new": "New",
+    "willBeCreated": "Will be created",
+    "originalVersionNotes": "Original version notes",
+    "restoreVersionNotesPlaceholder": "Explain why you're restoring this version...",
+    "explainWhyRestoring": "Explain the reason for restoring this version",
+    "oldValue": "Old Value",
+    "newValue": "New Value",
+    "riskLevelChanged": "Risk level changed",
+    "noChangesBetweenVersions": "No changes between these versions",
+    "statusAndMetadata": "Status & Metadata",
+    "assessmentData": "Assessment Data",
+    "fields": {
+      "status": "Status",
+      "riskLevel": "Risk Level",
+      "overallRiskScore": "Overall Risk Score",
+      "hasRedFlags": "Has Red Flags",
+      "validUntil": "Valid Until",
+      "completedAt": "Completed At",
+      "approvedAt": "Approved At"
+    },
+    "changeTypes": {
+      "added": "Added",
+      "removed": "Removed",
+      "modified": "Modified"
+    },
+    "versionCreated": "Version created successfully",
+    "versionCreateError": "Failed to create version",
+    "versionRestored": "Version restored successfully",
+    "versionRestoreError": "Failed to restore version"
+  },
+  "tabs": {
+    "assessmentForm": "Assessment Form",
+    "surveyDocuments": "Survey Documents"
+  },
+  "documents": {
+    "title": "Survey Documents",
+    "noDocuments": "No survey documents available. This assessment does not have a linked supplier survey with uploaded files.",
+    "loadError": "Failed to load survey documents. Please try again.",
+    "download": "Download",
+    "fileCount": "{{count}} file(s)",
+    "sectionEmpty": "No documents in this section"
+  }
+}

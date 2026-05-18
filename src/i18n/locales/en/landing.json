@@ -1,0 +1,141 @@
+{
+  "title": "N'entropy",
+  "subtitle": "Comprehensive solution for European Union Deforestation Regulation compliance. Manage suppliers, track products, conduct assessments, and generate documentation.",
+  "hero": {
+    "title": "Streamline Your EUDR Compliance",
+    "subtitle": "The complete platform for European Union Deforestation Regulation compliance.",
+    "highlight": "Automate documentation, assess risks, and ensure full compliance",
+    "conclusion": "with intelligent tools designed for modern supply chains.",
+    "badge": "EU Regulation Compliant",
+    "cta": {
+      "trial": "Start Free Trial",
+      "demo": "Watch Demo"
+    },
+    "noCardRequired": "No credit card required • Setup in 5 minutes"
+  },
+  "features": {
+    "title": "Comprehensive Features",
+    "dashboard": {
+      "title": "Comprehensive Dashboard",
+      "description": "Real-time compliance overview with risk monitoring and progress tracking"
+    },
+    "suppliers": {
+      "title": "Supplier Management",
+      "description": "Import, manage, and assess suppliers with comprehensive risk evaluation"
+    },
+    "products": {
+      "title": "Product Tracking",
+      "description": "Track all EUDR commodities with proper HS code classification"
+    },
+    "surveys": {
+      "title": "Survey Management",
+      "description": "Create and distribute surveys with multiple completion methods"
+    },
+    "riskAssessments": {
+      "title": "Risk Assessments",
+      "description": "Automated risk evaluation with mitigation planning and reporting"
+    },
+    "dds": {
+      "title": "DDS Generation",
+      "description": "Generate Due Diligence Statements with automated data population"
+    },
+    "supplyChains": {
+      "title": "Supply Chain Mapping",
+      "description": "Visualize and manage your complete supply chain network"
+    },
+    "geolocations": {
+      "title": "Geolocation Tracking",
+      "description": "Track and verify geographic origins of your commodities"
+    }
+  },
+  "benefits": {
+    "title": "Why Leading Companies Choose Us",
+    "subtitle": "Join hundreds of companies already simplifying their EUDR compliance with our proven platform",
+    "compliance": {
+      "title": "Ensure Compliance",
+      "description": "Stay compliant with EU Deforestation Regulation requirements"
+    },
+    "efficiency": {
+      "title": "Improve Efficiency",
+      "description": "Streamline compliance processes and reduce manual work"
+    },
+    "integration": {
+      "title": "Easy Integration",
+      "description": "Import data from existing ERP systems via CSV"
+    },
+    "export": {
+      "title": "Export Ready",
+      "description": "Generate professional reports and documentation"
+    },
+    "metrics": {
+      "fastCompliance": "10x Faster Compliance",
+      "riskTolerance": "Zero Risk Tolerance",
+      "upToDate": "Always Up-to-Date",
+      "teamCollaboration": "Team Collaboration"
+    }
+  },
+  "cta": {
+    "title": "Ready to Ensure EUDR Compliance?",
+    "description": "Start managing your supply chain compliance today with our comprehensive EUDR management platform."
+  },
+  "footer": {
+    "company": {
+      "title": "N'entropy",
+      "description": "The complete platform for European Union Deforestation Regulation compliance. Streamline your processes and ensure full regulatory compliance."
+    },
+    "sections": {
+      "product": "Product",
+      "resources": "Resources",
+      "company": "Company",
+      "navigation": {
+        "dashboard": "Dashboard",
+        "suppliers": "Suppliers",
+        "products": "Products",
+        "riskAssessments": "Risk Assessments",
+        "ddsGenerator": "DDS Generator",
+        "supplyChains": "Supply Chains",
+        "documentation": "EUDR Documentation",
+        "apiDocs": "API Documentation",
+        "integrationGuides": "Integration Guides",
+        "bestPractices": "Best Practices",
+        "complianceChecklist": "Compliance Checklist",
+        "tutorials": "Video Tutorials",
+        "about": "About Us",
+        "contact": "Contact",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "security": "Security",
+        "status": "Status Page"
+      }
+    },
+    "integrations": {
+      "title": "Seamless Integrations",
+      "subtitle": "Connect with your existing systems and the official EUDR EU portal",
+      "customRequest": "Need a custom integration? We'll work with your team to build it.",
+      "buttonText": "Request Custom Integration",
+      "cards": {
+        "eudrPortal": {
+          "title": "EUDR EU Portal",
+          "description": "Direct integration with the official European Union EUDR portal for seamless data submission and compliance reporting.",
+          "status": "Coming Soon"
+        },
+        "productSystems": {
+          "title": "Product Management Systems",
+          "description": "Connect with your existing product databases, inventory systems, and supply chain management platforms.",
+          "status": "Coming Soon"
+        },
+        "supplierNetworks": {
+          "title": "Supplier Networks",
+          "description": "Integrate with supplier portals, procurement systems, and third-party vendor management platforms.",
+          "status": "Coming Soon"
+        }
+      }
+    },
+    "copyright": "© 2025 N'entropy. All rights reserved.",
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies"
+    }
+  }
+}

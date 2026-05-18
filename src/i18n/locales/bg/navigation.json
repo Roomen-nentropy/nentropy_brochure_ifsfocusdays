@@ -1,0 +1,28 @@
+{
+  "menu": {
+    "dashboard": "Табло",
+    "suppliers": "Доставчици",
+    "ownGoods": "Собствени Стоки",
+    "products": "Стоки",
+    "surveys": "Проучвания",
+    "riskAssessments": "Оценки на риска",
+    "dds": "Декларации",
+    "supplyChains": "Верига на доставки",
+    "integrations": "Интеграции",
+    "geolocations": "Геолокации",
+    "production": "Производство",
+    "packagingLabelling": "Опаковка и етикетиране",
+    "settings": "Настройки на профила"
+  },
+  "navbar": {
+    "brand": "N'entropy",
+    "features": "Функции",
+    "benefits": "Предимства",
+    "documentation": "Документация",
+    "support": "Поддръжка",
+    "demo": "Демо",
+    "getStarted": "Започни",
+    "settings": "Настройки",
+    "signOut": "Излизане"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "title": "Доставчици",
+  "subtitle": "Управление и проследяване на партньорите в веригата на доставки",
+  "addSupplier": "Добавяне на нов доставчик",
+  "editSupplier": "Редактиране на доставчик",
+  "importFromCsv": "Импортиране от CSV",
+  "fields": {
+    "name": "Име на доставчика",
+    "country": "Страна",
+    "region": "Регион",
+    "address": "Адрес",
+    "email": "Имейл адрес",
+    "phone": "Телефонен номер",
+    "contactPerson": "Контактно лице",
+    "certifications": "Сертификати",
+    "riskLevel": "Ниво на риск",
+    "complianceStatus": "Статус на съответствие",
+    "lastAssessment": "Последна оценка",
+    "products": "Продукти",
+    "totalProducts": "Общо продукти"
+  },
+  "riskLevels": {
+    "low": "Нисък риск",
+    "medium": "Среден риск",
+    "high": "Висок риск"
+  },
+  "status": {
+    "active": "Активен",
+    "inactive": "Неактивен",
+    "pending": "Чака преглед"
+  },
+  "csvImport": {
+    "title": "Импортиране на доставчици от CSV",
+    "description": "Качете CSV файл с данни за доставчици. Файлът трябва да включва колони за име, страна, имейл, телефон и адрес.",
+    "expectedFormat": "Очакван CSV формат: Име, Страна, Имейл, Телефон, Адрес",
+    "selectFile": "Избор на CSV файл",
+    "preview": "Преглед на данните",
+    "importButton": "Импортиране на доставчици",
+    "cancel": "Отказ",
+    "steps": {
+      "uploadFile": "Качване на CSV файл",
+      "previewMapHeaders": "Преглед и маппинг на заглавки",
+      "importResults": "Резултати от импортирането"
+    },
+    "fields": {
+      "supplierName": "Име на доставчика",
+      "supplierCountry": "Страна на доставчика",
+      "contactPerson": "Контактно лице",
+      "email": "Имейл",
+      "phone": "Телефон",
+      "address": "Адрес",
+      "productName": "Име на продукта",
+      "hsCode": "HS код",
+      "category": "Категория",
+      "country": "Страна",
+      "originEuNonEu": "Произход (ЕС/Извън ЕС)",
+      "unit": "Единица"
+    },
+    "messages": {
+      "mapHeaders": "Маппирайте заглавките на CSV файла към съответните полета. Поне едно име на доставчик или име на продукт трябва да бъде маппирано.",
+      "supplierFields": "Полета на доставчика",
+      "productFields": "Полета на продукта",
+      "selectHeader": "Изберете заглавка",
+      "fileSelected": "Избран: {{name}} ({{size}} KB)",
+      "processing": "Обработка...",
+      "importing": "Импортиране на данни...",
+      "pleaseWait": "Моля, изчакайте, докато обработваме вашите данни",
+      "importData": "Импортиране на данни",
+      "close": "Затвори",
+      "back": "Назад",
+      "chooseFile": "Избери файл",
+      "fileInstructions": "Файлът трябва да съдържа заглавки в първия ред, последвани от вашите данни.",
+      "notMapped": "Не е маппирано",
+      "dataPreview": "Преглед на данните ({{totalRows}} общо редове)",
+      "importSuccessful": "Импортирането е успешно!",
+      "importCompletedWithErrors": "Импортирането е завършено с грешки",
+      "suppliers": "Доставчици",
+      "products": "Продукти",
+      "warnings": "Предупреждения",
+      "errors": "Грешки",
+      "warningsLabel": "Предупреждения:",
+      "errorsLabel": "Грешки:"
+    }
+  },
+  "validation": {
+    "nameRequired": "Името на доставчика е задължително",
+    "countryRequired": "Страната е задължителна",
+    "invalidEmail": "Моля, въведете валиден имейл адрес"
+  },
+  "messages": {
+    "supplierAdded": "Доставчикът е добавен успешно",
+    "supplierUpdated": "Доставчикът е актуализиран успешно",
+    "supplierDeleted": "Доставчикът е изтрит успешно",
+    "csvImported": "Доставчиците са импортирани успешно от CSV",
+    "csvImportError": "Грешка при импортиране на CSV файла",
+    "noSuppliersInstructions": "Добавете доставчици ръчно с помощта на бутона + или ги импортирайте от CSV файл.",
+    "failedToLoad": "Неуспешно зареждане на доставчици. Моля, опитайте отново.",
+    "errorDeleting": "Неуспешно изтриване на доставчик. Моля, опитайте отново.",
+    "errorSaving": "Неуспешно запазване на доставчик. Моля, опитайте отново.",
+    "errorImporting": "Неуспешно импортиране на данни. Моля, опитайте отново.",
+    "supplierDeletedWithProducts": "Доставчик \"{{name}}\" и {{count}} свързани продукта са изтрити успешно",
+    "importSuccess": "Успешно импортирани {{suppliers}} доставчици и {{products}} продукта",
+    "importSuccessWithWarnings": "Успешно импортирани {{suppliers}} доставчици и {{products}} продукта ({{warnings}} предупреждения)",
+    "importing": "Импортиране...",
+    "saving": "Запазване...",
+    "deleting": "Изтриване..."
+  },
+  "labels": {
+    "eu": "ЕС",
+    "nonEU": "Извън ЕС",
+    "euOrigin": "Произход от ЕС",
+    "address": "Адрес",
+    "confirmDeletion": "Потвърдете изтриването",
+    "deleteConfirmation": "Сигурни ли сте, че искате да изтриете доставчик \"{{name}}\"?",
+    "deleteWarning": "Това ще изтрие и {{count}} свързани продукта.",
+    "noSuppliers": "Няма намерени доставчици",
+    "noSuppliersDescription": "Започнете като импортирате данните си от CSV файл или добавите доставчици ръчно",
+    "addManually": "Добавете ръчно",
+    "importCsv": "Импортирайте CSV",
+    "searchPlaceholder": "Търсете доставчици по име, имейл, контактно лице, страна...",
+    "supplierDossier": "Досие на доставчика"
+  },
+  "statistics": {
+    "title": "Статистики за доставчика"
+  },
+  "csvImportInstructions": {
+    "title": "Инструкции за CSV импорт",
+    "description": "Импортирайте данните си със следните колони, разделени с табулация:",
+    "columnsList": {
+      "hsCode": "HS код на продукта",
+      "productName": "Име на продукта",
+      "supplierName": "Име на доставчика",
+      "category": "Категория продукт",
+      "country": "Страна",
+      "origin": "Произход (ЕС/Извън ЕС)"
+    },
+    "automaticProcessing": "Системата автоматично ще:",
+    "processingList": {
+      "createSuppliers": "Създаде доставчици от колоната Доставчик",
+      "createProducts": "Създаде продукти и ги свърже с доставчици",
+      "determineRelevance": "Определи EUDR релевантност въз основа на категориите продукти",
+      "setRiskLevels": "Зададе нива на риск въз основа на произхода (ЕС срещу извън ЕС)"
+    }
+  },
+  "dossier": {
+    "dataQualityScore": "Оценка за качество на данните",
+    "lastUpdated": "Последна актуализация",
+    "noDataAvailable": "Все още няма основни данни за доставчика. Попълнете DDS проучване, за да започнете изграждането на досието.",
+    "tabs": {
+      "geolocations": "Геолокации",
+      "documents": "Документи",
+      "certifications": "Сертификати",
+      "history": "История"
+    },
+    "geolocations": {
+      "title": "Проверени геолокации",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "country": "Страна",
+      "plotId": "Plot ID",
+      "status": "Статус",
+      "verified": "Проверено",
+      "duplicateSuspect": "Подозрение за дубликат",
+      "verifiedLabel": "Проверено",
+      "verificationCount": "{{count}}x",
+      "noGeolocations": "Все още няма проверени геолокации. Те ще се появят тук след завършване на DDS проучване."
+    },
+    "documents": {
+      "title": "Документи",
+      "type": "Тип",
+      "country": "Страна",
+      "source": "Източник",
+      "uploaded": "Качено",
+      "valid": "Валиден",
+      "yes": "Да",
+      "no": "Не",
+      "noDocuments": "Все още няма качени документи. Документите от DDS проучвания ще се появят тук."
+    },
+    "certifications": {
+      "title": "Сертификати",
+      "certificateNumber": "Сертификат №",
+      "issuedBy": "Издаден от",
+      "issued": "Издаден",
+      "expires": "Изтича",
+      "active": "Активен",
+      "noCertifications": "Няма записани сертификати."
+    },
+    "history": {
+      "title": "История на доставчика",
+      "lastDDSSurvey": "Последно DDS проучване",
+      "lastRiskAssessment": "Последна оценка на риска",
+      "ddsSurveys": "DDS проучвания",
+      "riskAssessments": "Оценки на риска",
+      "surveyMode": "Проучване",
+      "status": "Статус",
+      "completed": "Завършено",
+      "assessmentVersion": "Оценка v{{version}}",
+      "risk": "Риск",
+      "noDDSSurveys": "Все още няма завършени DDS проучвания.",
+      "noRiskAssessments": "Все още няма завършени оценки на риска."
+    }
+  }
+}

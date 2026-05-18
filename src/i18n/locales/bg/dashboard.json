@@ -1,0 +1,55 @@
+{
+  "title": "Табло",
+  "overview": "Преглед на съответствието",
+  "statistics": {
+    "totalSuppliers": "Общо доставчици",
+    "totalProducts": "Общо продукти",
+    "pendingAssessments": "Чакащи оценки",
+    "activeDds": "Активни декларации",
+    "completedDds": "Завършени DDS",
+    "complianceRate": "Степен на съответствие",
+    "highRiskSuppliers": "Високорискови доставчици",
+    "completedSurveys": "Завършени проучвания",
+    "verifiedGeolocations": "Верифицирани геолокации"
+  },
+  "progress": {
+    "title": "Напредък в съответствието",
+    "overall": "Общо EUDR съответствие",
+    "riskAssessments": "Оценки на риска",
+    "ddsCompletion": "Завършване на DDS",
+    "suppliersCompliant": "от {{count}} доставчици съответстват",
+    "suppliersAssessed": "от доставчиците са оценени",
+    "formsCompleted": "от необходимите DDS формуляри са завършени",
+    "target": "Цел: {{percentage}}%"
+  },
+  "recentActivity": {
+    "title": "Скорошна активност",
+    "riskAssessmentCompleted": "Оценката на риска е завършена за {{supplier}}",
+    "ddsSubmitted": "Нов DDS формуляр е изпратен за {{product}}",
+    "highRiskFlagged": "Високорисков доставчик е маркиран: {{supplier}}",
+    "surveyResponsesImported": "Отговори от проучвания са импортирани от {{count}} доставчици"
+  },
+  "upcomingDeadlines": {
+    "title": "Предстоящи крайни срокове",
+    "ddsSubmission": "Подаване на DDS за Q4 2024",
+    "riskAssessmentReview": "Преглед на оценка на риска за {{count}} доставчици",
+    "supplyChainVerification": "Верификация на веригата на доставки за {{product}} продукти",
+    "due": "Краен срок: {{date}}"
+  },
+  "timeAgo": {
+    "hoursAgo": "преди {{count}} часа",
+    "daysAgo": "преди {{count}} ден",
+    "daysAgo_other": "преди {{count}} дни"
+  },
+  "priority": {
+    "high": "висок",
+    "medium": "среден",
+    "low": "нисък"
+  },
+  "messages": {
+    "noDashboardData": "Няма налични данни за таблото",
+    "noRecentActivities": "Няма скорошни дейности",
+    "noUpcomingDeadlines": "Няма предстоящи крайни срокове",
+    "due": "Краен срок: {{date}}"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "form": {
+    "groups": {
+      "euCompliance": "EU Compliance",
+      "declaration": "Declaration",
+      "companyInformation": "Company Information",
+      "plantationLandDetails": "Plantation & Land Details",
+      "riskAssessment": "Risk Assessment",
+      "riskMitigation": "Risk Mitigation",
+      "productInformation": "Product Information",
+      "certifications": "Certifications",
+      "chainOfCustody": "Chain of Custody",
+      "riskCompliance": "Risk & Compliance",
+      "companyDetails": "Company Details",
+      "productsSupplied": "Products Supplied",
+      "certification": "Certification"
+    },
+    "fields": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "buttons": {
+      "back": "Back",
+      "next": "Next",
+      "submitSurvey": "Submit Survey",
+      "saveProgress": "Save Progress",
+      "cancel": "Cancel",
+      "submit": "Submit"
+    },
+    "status": {
+      "progress": "Progress:",
+      "saving": "Saving...",
+      "lastSaved": "Last saved: {{time}}",
+      "submitting": "Submitting...",
+      "completion": "Completion: {{percentage}}%"
+    },
+    "messages": {
+      "invalidLink": "Invalid survey link",
+      "failedToLoad": "Failed to load survey",
+      "surveyNotFound": "Survey not found",
+      "surveyQuestionsMissing": "This survey has no questions loaded. Ask your operator to open Surveys once (to refresh templates), then create a new survey link.",
+      "surveyExpired": "This survey has expired. Please contact your supplier administrator for a new link.",
+      "failedToSubmit": "Failed to submit survey",
+      "surveyCompleted": "Survey has been completed",
+      "noMoreChanges": "No further changes are permitted to this survey",
+      "completedOn": "Completed on: {{date}}"
+    },
+    "dialog": {
+      "submitTitle": "Submit Survey",
+      "submitConfirmation": "Are you sure you want to submit this survey? Once submitted, you will not be able to make further changes.",
+      "unsavedChangesTitle": "Unsaved Changes",
+      "unsavedChangesMessage": "You have unsaved changes. Would you like to save your progress before leaving this page?",
+      "stayOnPage": "Stay on Page",
+      "saveAndLeave": "Save and Leave"
+    }
+  },
+  "monitoring": {
+    "title": "Survey Monitoring",
+    "buttons": {
+      "refreshNow": "Refresh Now",
+      "viewDetails": "View Details",
+      "viewResponses": "View Responses",
+      "openLink": "Open Instance",
+      "close": "Close"
+    },
+    "table": {
+      "headers": {
+        "surveyTemplate": "Survey Template",
+        "supplier": "Supplier",
+        "status": "Status",
+        "progress": "Progress",
+        "created": "Created",
+        "expires": "Expires",
+        "timeRemaining": "Time Remaining",
+        "actions": "Actions"
+      }
+    },
+    "details": {
+      "title": "Survey Details",
+      "fields": {
+        "surveyId": "Survey ID",
+        "template": "Template",
+        "supplier": "Supplier",
+        "status": "Status"
+      },
+      "timeline": {
+        "title": "Timeline",
+        "created": "Created",
+        "sent": "Sent",
+        "expires": "Expires"
+      }
+    },
+    "responses": {
+      "title": "Survey Responses",
+      "question": "Question {{questionId}}",
+      "response": "Response: {{response}}",
+      "updated": "Updated: {{date}}",
+      "noResponses": "No responses yet"
+    },
+    "settings": {
+      "autoRefresh": "Auto-refresh"
+    },
+    "messages": {
+      "failedToLoadInstances": "Failed to load survey instances",
+      "failedToLoadResponses": "Failed to load survey responses"
+    },
+    "fallback": {
+      "template": "Template {{templateId}}",
+      "supplier": "Supplier {{supplierId}}"
+    }
+  },
+  "fileField": {
+    "uploadFile": "Upload File",
+    "uploadFiles": "Upload Files",
+    "dropFileHere": "or drop file here",
+    "dropFilesHere": "or drop files here",
+    "acceptedFormats": "Accepted formats: {{formats}}",
+    "uploaded": "Uploaded"
+  },
+  "validation": {
+    "required": "This field is required",
+    "minItems": "At least {{count}} items required",
+    "errorTitle": "Please fill in the following required fields:"
+  },
+  "step": "Step {{number}}",
+  "autoSaving": "Auto-saving your responses...",
+  "submission": {
+    "thankYou": "Thank You!",
+    "completed": "Your survey has been submitted successfully.",
+    "whatHappensNext": "What happens next?",
+    "reviewProcess": "Our team will review your submission and may contact you if additional information is needed.",
+    "contactInfo": "If you have any questions, please contact us at support@nentropy.com",
+    "downloadCopy": "Download a copy of your submission",
+    "returnToDashboard": "Return to Dashboard",
+    "surveyCompleted": "Survey Completed",
+    "completedOn": "This survey was completed on {{date}}",
+    "noMoreChanges": "No further changes are allowed."
+  }
+}

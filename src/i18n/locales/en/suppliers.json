@@ -1,0 +1,203 @@
+{
+  "title": "Supplier Management",
+  "subtitle": "Manage your supplier network and assess compliance risks",
+  "addSupplier": "Add New Supplier",
+  "editSupplier": "Edit Supplier",
+  "importFromCsv": "Import from CSV",
+  "fields": {
+    "name": "Supplier Name",
+    "country": "Country",
+    "region": "Region",
+    "address": "Address",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "contactPerson": "Contact Person",
+    "certifications": "Certifications",
+    "riskLevel": "Risk Level",
+    "complianceStatus": "Compliance Status",
+    "lastAssessment": "Last Assessment",
+    "products": "Products",
+    "totalProducts": "Total Products"
+  },
+  "riskLevels": {
+    "low": "Low Risk",
+    "medium": "Medium Risk",
+    "high": "High Risk"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending Review"
+  },
+  "csvImport": {
+    "title": "Import Suppliers from CSV",
+    "description": "Upload a CSV file with supplier data. The file should include columns for name, country, email, phone, and address.",
+    "expectedFormat": "Expected CSV format: Name, Country, Email, Phone, Address",
+    "selectFile": "Select CSV File",
+    "preview": "Preview Data",
+    "importButton": "Import Suppliers",
+    "cancel": "Cancel",
+    "steps": {
+      "uploadFile": "Upload CSV File",
+      "previewMapHeaders": "Preview & Map Headers",
+      "importResults": "Import Results"
+    },
+    "fields": {
+      "supplierName": "Supplier Name",
+      "supplierCountry": "Supplier Country",
+      "contactPerson": "Contact Person",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "productName": "Product Name",
+      "hsCode": "HS Code",
+      "category": "Category",
+      "country": "Country",
+      "originEuNonEu": "Origin (EU/Non-EU)",
+      "unit": "Unit"
+    },
+    "messages": {
+      "mapHeaders": "Map your CSV headers to the corresponding fields. At least one supplier name or product name must be mapped.",
+      "supplierFields": "Supplier Fields",
+      "productFields": "Product Fields",
+      "selectHeader": "Select Header",
+      "fileSelected": "Selected: {{name}} ({{size}} KB)",
+      "processing": "Processing...",
+      "importing": "Importing data...",
+      "pleaseWait": "Please wait while we process your data",
+      "importData": "Import Data",
+      "close": "Close",
+      "back": "Back",
+      "chooseFile": "Choose File",
+      "fileInstructions": "The file should contain headers in the first row, followed by your data.",
+      "notMapped": "Not mapped",
+      "dataPreview": "Data Preview ({{totalRows}} total rows)",
+      "importSuccessful": "Import Successful!",
+      "importCompletedWithErrors": "Import Completed with Errors",
+      "suppliers": "Suppliers",
+      "products": "Products",
+      "warnings": "Warnings",
+      "errors": "Errors",
+      "warningsLabel": "Warnings:",
+      "errorsLabel": "Errors:"
+    }
+  },
+  "validation": {
+    "nameRequired": "Supplier name is required",
+    "countryRequired": "Country is required",
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "messages": {
+    "supplierAdded": "Supplier added successfully",
+    "supplierUpdated": "Supplier updated successfully",
+    "supplierDeleted": "Supplier deleted successfully",
+    "csvImported": "Suppliers imported successfully from CSV",
+    "csvImportError": "Error importing CSV file",
+    "noSuppliersInstructions": "Add suppliers manually using the + button or import them from a CSV file.",
+    "failedToLoad": "Failed to load suppliers. Please try again.",
+    "errorDeleting": "Failed to delete supplier. Please try again.",
+    "errorSaving": "Failed to save supplier. Please try again.",
+    "errorImporting": "Failed to import data. Please try again.",
+    "supplierDeletedWithProducts": "Supplier \"{{name}}\" and {{count}} related products deleted successfully",
+    "importSuccess": "Successfully imported {{suppliers}} suppliers and {{products}} products",
+    "importSuccessWithWarnings": "Successfully imported {{suppliers}} suppliers and {{products}} products ({{warnings}} warnings)",
+    "importing": "Importing...",
+    "saving": "Saving...",
+    "deleting": "Deleting..."
+  },
+  "labels": {
+    "eu": "EU",
+    "nonEU": "Non-EU",
+    "euOrigin": "EU Origin",
+    "address": "Address",
+    "confirmDeletion": "Confirm Deletion",
+    "deleteConfirmation": "Are you sure you want to delete supplier \"{{name}}\"?",
+    "deleteWarning": "This will also delete {{count}} related products.",
+    "noSuppliers": "No suppliers found",
+    "noSuppliersDescription": "Get started by importing your data from a CSV file or adding suppliers manually",
+    "addManually": "Add Manually",
+    "importCsv": "Import CSV",
+    "searchPlaceholder": "Search suppliers by name, email, contact person, country...",
+    "supplierDossier": "Supplier Dossier"
+  },
+  "statistics": {
+    "title": "Supplier Statistics"
+  },
+  "csvImportInstructions": {
+    "title": "CSV Import Instructions",
+    "description": "Import your data with the following tab-separated columns:",
+    "columnsList": {
+      "hsCode": "Product HS code",
+      "productName": "Product name",
+      "supplierName": "Supplier name",
+      "category": "Product category",
+      "country": "Country",
+      "origin": "Origin (EU/Non EU)"
+    },
+    "automaticProcessing": "The system will automatically:",
+    "processingList": {
+      "createSuppliers": "Create suppliers from the Supplier column",
+      "createProducts": "Create products and link them to suppliers",
+      "determineRelevance": "Determine EUDR relevance based on product categories",
+      "setRiskLevels": "Set risk levels based on origin (EU vs Non-EU)"
+    }
+  },
+  "dossier": {
+    "dataQualityScore": "Data Quality Score",
+    "lastUpdated": "Last updated",
+    "noDataAvailable": "No supplier master data available yet. Complete a DDS survey to start building the dossier.",
+    "tabs": {
+      "geolocations": "Geolocations",
+      "documents": "Documents",
+      "certifications": "Certifications",
+      "history": "History"
+    },
+    "geolocations": {
+      "title": "Verified Geolocations",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "country": "Country",
+      "plotId": "Plot ID",
+      "status": "Status",
+      "verified": "Verified",
+      "duplicateSuspect": "Duplicate Suspect",
+      "verifiedLabel": "Verified",
+      "verificationCount": "{{count}}x",
+      "noGeolocations": "No geolocations verified yet. They will appear here after DDS survey completion."
+    },
+    "documents": {
+      "title": "Documents",
+      "type": "Type",
+      "country": "Country",
+      "source": "Source",
+      "uploaded": "Uploaded",
+      "valid": "Valid",
+      "yes": "Yes",
+      "no": "No",
+      "noDocuments": "No documents uploaded yet. Documents from DDS surveys will appear here."
+    },
+    "certifications": {
+      "title": "Certifications",
+      "certificateNumber": "Certificate #",
+      "issuedBy": "Issued by",
+      "issued": "Issued",
+      "expires": "Expires",
+      "active": "Active",
+      "noCertifications": "No certifications on record."
+    },
+    "history": {
+      "title": "Supplier History",
+      "lastDDSSurvey": "Last DDS Survey",
+      "lastRiskAssessment": "Last Risk Assessment",
+      "ddsSurveys": "DDS Surveys",
+      "riskAssessments": "Risk Assessments",
+      "surveyMode": "Survey",
+      "status": "Status",
+      "completed": "Completed",
+      "assessmentVersion": "Assessment v{{version}}",
+      "risk": "Risk",
+      "noDDSSurveys": "No DDS surveys completed yet.",
+      "noRiskAssessments": "No risk assessments completed yet."
+    }
+  }
+}
